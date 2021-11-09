@@ -1,108 +1,289 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Quiz Time 
 
-Welcome USER_NAME,
+This website has been created as the second Milestone project for Code Institute's Full Stack Software Development Diploma. It was built using HTML and CSS. GitPod was used for writing the code for this website, as well as committing and pushing to GitHub. GitHub was then used to store the project after it had been pushed from GitPod. Once all the code had been written, GitPages was then used to deploy the website. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+This website is a fun and easy to play Movies & TV Shows quiz game.
+It was designed to allow users to take 5 minutes out of their day to unwind and have a bit of fun. 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+### View the live website [here]()
+***
 
-## Gitpod Reminders
+![Am I Responsive](assets/readme-images/am-i-responsive.png)
+***
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Table of content: 
+ 1. [Site Goals](#Site-Goals)
+ 1. [UX](#UX)
+      1. [User Stories](#User-Stories)
+      1. [Development Planes](#Development-Planes)
+            * [Strategy](#Strategy)
+            * [Scope](#Scope)
+            * [Structure](#Structure)
+            * [Skeleton](#Skeleton)
+            * [Surface](#Surface)
+      1. [Color](#Color)
+      1. [Font](#Font)
+      1. [Images](#Images)
+ 1. [Features](#Features)
+      1. [General](#General)
+      1. [Home page](#Home-page)
+      1. [About](#About)
+      1. [Recipes](#Recipes)
+      1. [Gallery](#Gallery)
+ 1. [Testing](#Testing)
+ 1. [User Stories Met](#User-Stories-Met)
+ 1. [Bugs](#Bugs)
+ 1. [Technologies Used](#Technologies-Used)
+ 1. [Validation](#Validation)
+ 1. [Accessibility](#Accessibility)
+ 1. [Deployment](#Deployment)
+ 1. [Credits](#Credits)
+      1. [Content](#Content)
+      1. [Media](#Media)
+      1. [Code](#Code)
+***
+  
 
-`python3 -m http.server`
+## Site Goals:
 
-A blue button should appear to click: _Make Public_,
+The goals for this site are as follows:
+* To provide users with a fun interactive game.
+* To test the users knowledge of 'x'.
 
-Another blue button should appear to click: _Open Browser_.
+## UX:
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### User stories:
+#### New User:  
+* As a new user, I am looking to find play an online game that tests my knowledge of 'x'  
+* As a new user, I would like to keep trace of my score as I progress through the quiz.  
+* As a new user, I would like to get live feedback of my answers.   
 
-A blue button should appear to click: _Make Public_,
+#### Returning User:
+* As a returning user, I would like to check if there has been any new questions added.
+* As a returning user, I would like to attempt to beat my previous score.
+* As a returning user, I would like to see a leader board of the top 10 scorers.
 
-Another blue button should appear to click: _Open Browser_.
+## Development Planes:
+To create a website that is comprehensive and informative for a user, as a developer you need to look at all aspects of the website and how someone who visits your website will use it. You have to consider all the user stories that have been outlined in the above sections.  
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Strategy
+The strategy principal looks at user needs, as well product/service objectives. This websites target audience was broken down into three categories:
+### Roles: 
+* New User
+* Existing User  
 
-To log into the Heroku toolbelt CLI:
+### Demographic:
+*   
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Psychographic:
+#### Lifestyle:
+*   
+#### Values:
+*  
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+#### The website needs to allow users to:  
+* Easily enter a username   
+* Get live feedback of if the answer is correct or incorrect 
+* See the correct answer if they answered incorrect  
+* See a running total of their score
+* Provide a top 10 scorers board when the quiz has been completed  
 
-------
 
-## Release History
+#### The website needs to allow the developer to:  
+* Keep track of all usernames being added so no name is used more than once   
+* Keep track of all scores that will be displayed on the top 10 scorers board  
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## Scope:  
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+With the structure in place, it was then time to move onto the scope plane. This was all about developing website requirements based on the goals set out in the strategy plane. These requirements are broken down into two categories. 
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### Content Requirements:
+1. The user will be looking for:
+      * 
+### Functionality Requirements:
+1. The user will be able to:
+      * 
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+## Structure:
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+The information above was then used to create a structure for the website. Below is a site map showing how users can navigate the website intuitively 
+<details>
+<summary>Sitemap</summary>
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+![Sitemap]
+</details>
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Skeleton:
+[Wireframes](WIREFRAME.md "Link to Wireframe screenshots") were created to set out the initial appearance of the website while also making sure to keep the end-user in mind at all times. Wireframes were created using [Balsamiq](https://balsamiq.com/).  
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## Surface:
+[Please see the live site here]  
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Color: 
+To create a visually appealing website but also a website that was easy for people to read I used several different sites to test color contrast. I wanted to make sure the color scheme was not only eye-catching but also that it passed the LightHouse Accessibility test. 
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+Initially, I looked at what colors work best with the 'x' color I had chosen as my main color. I did this by using a color wheel.  
+![Color Wheel](assets/readme-images/Color-ombinations-Cheat-Sheet.png)
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+Following on from the color wheel, an orange was decided upon to contrast the purple. To make sure text could be seen without issue on my chosen colors I used [Coolors](https://coolors.co/) color contrast checker.
 
-------
 
-## FAQ about the uptime script
+![Color Checker 1](assets/readme-images/text-area-contrast.png)
+![Color Checker 2](assets/readme-images/button-color-check.png)
 
-**Why have you added this script?**
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
 
-**How will this affect me?**
+### Font:
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+ 
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+### Images:
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+The imagery on this site was sourced from [Pexel](https://www.pexels.com/)
 
-**So….?**
+All these images were uploaded to the site initially and were placed on the gallery page. After working with images from Pexel on other projects, it was known that these images are quite large and take a lot of time to load. For this reason before uploading the images were compressed to suit the websites needs.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+***
+[Back to top](#Quiz-Time)  
+  
 
-**Can I opt out?**
+## Features:
+There are several features on this site to help users get the most out of their visit to the site.  
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+### General:
+#### Header and Navigation:  
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+#### Footer:  
 
-**Anything more?**
+### Home page:
+  
+#### Main Section:
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+### Game Page:
 
----
+## Future Features:
+* A rolling gallery in the *Gallery* page instead of a static gallery.
+* An upload your images section which allows users to upload images of recipes they have tried out.
+* A shop where users can buy vouchers or cooking equipment and accessories. 
+* A rolling testimonial in the footer, allowing users to see feedback from previous clients.
 
-Happy coding!
+***
+[Back to top](#Quiz-Time)  
+
+## User Stories Met:
+This section is to look back at the User stories we established during the strategy phase of the project. 
+We are looking to see if we have met all the goals we set out. 
+#### New User:  
+* 
+***
+
+## Testing:
+Testing information can be viewed [here](TESTING.md "Link to testing information")
+
+***
+
+## Bugs:
+1. 
+***
+[Back to top](#Quiz-Time) 
+
+## Technologies Used:
+For the purpose of this project, the following technologies were used.  
+
+### Languages:
+* JavaScript
+* HTML
+* CSS 
+
+### Frameworks, Libraries, Programs & Applications Used:
+
+#### Google Font
+* 
+
+#### Font Awesome
+*   
+
+#### GitPod
+* GitPod was used for writing all the code for this project. It was also used to commit and push to GitHub.  
+
+#### GitHub 
+* GitHub was used to store this project.
+
+#### GitPages
+* GitPages was used to deploy the project.
+
+#### Balsamiq 
+* Balsamiq was used to draw initial Wireframes for this project.
+
+#### Figma
+* Figma was used during the structure phase of this project. It was used to create a sitemap of the website. 
+
+#### Am I Responsive
+* Am I Responsive was used to check that each page of the site was responsive. It was also used to create the mock-up image seen at the beginning of this document. 
+
+#### Google Development Tools
+* Google Dev Tools was used to edit code and check responsiveness before making the changes permanent.
+
+*** 
+[Back to top](#Quiz-Time)
+
+## Validation:
+
+See screenshot to W3C validator and Jigsaw CSS validator [here](VALIDATION.md "Link to validation screenshots")
+
+### **Index.html:**
+No errors found. 
+
+### **About.html:**
+No errors found
+
+### **Recipe.html:**
+No errors found
+
+### **Gallery.html:**
+No errors found
+
+### **Style.css:**
+No errors found
+
+***
+[Back to top](#Quiz-Time)
+
+## Accessibility:
+![LightHouse Report]()
+***
+## Deployment:
+This project was developed using [GitPod](https://gitpod.io/), committed and pushed to [GitHub](https://github.com/) using a GitPod terminal.
+
+Deploying on GitHub Pages
+To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
+
+1. Log into GitHub.
+1. Locate the GitHub Repository you are using.
+1. At the top of the repository, select Settings from the menu items.
+1. Scroll down the Settings page to the "GitHub Pages" section.
+1. Click on the link provided. To open a new tab, right click on your mouse and select open in a new tab.
+1. Under "Source" click the drop-down menu labelled "None" and select "Main". Once this is done click on "save"
+1. Once you have clicked save, the page will automatically refresh. You will now get a link to the deployed website.
+1. Copy this link and off you go. 
+
+***
+## Credits:
+
+### Content:
+
+1. 
+
+### Media:
+
+1. 
+
+### Code:
+
+1. 
+*** 
+[Back to top](#Quiz-Time) 

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,18 +8,43 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>It's Quiz Time</title>
 </head>
+
 <body>
     <h1 class="heading">
         It's Quiz Time
-     </h1>
- 
-     <div class="movie-questions">
-     </div>
-     <div class="tv-show-area">
-     </div>
-     </div>
- 
-     
-<script src="assets/javascript/script"></script>
+    </h1>
+
+
+    <section id="choice-panel">
+        <div class="movie-questions">
+        </div>
+        <div class="tv-show-area">
+        </div>
+        </div>
+    </section>
+
+    <section id="questions-panel">
+        <div class="question-area">
+        </div>
+        <div class="answer-area">
+            <button id="btn1"><span id="option1"></span></button>
+            <button id="btn2"><span id="option2"></span></button>
+            <button id="btn3"><span id="option3"></span></button>
+            <button id="btn4"><span id="option4"></span></button>
+
+        </div>
+        <button data-type="submit" class="btn btn--gray">Submit Answer</button>
+        </div>
+    </section>
+
+    <setion id="scoring-panel">
+        <div class="score-area">
+            <p class="scores">Correct Answers <span id="correct">0</span></p>
+            <p class="scores">Incorrect Answers <span id="incorrect">0</span></p>
+        </div>
+    </setion>
+
+    <script src="assets/javascript/script"></script>
 </body>
+
 </html>

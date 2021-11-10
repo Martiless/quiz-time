@@ -27,9 +27,9 @@ It was designed to allow users to take 5 minutes out of their day to unwind and 
  1. [Features](#Features)
       1. [General](#General)
       1. [Home page](#Home-page)
-      1. [About](#About)
-      1. [Recipes](#Recipes)
-      1. [Gallery](#Gallery)
+      1. [Questions](#Questions)
+      1. [Score](#Score)
+      1. [Leader Board](#Leader-Board)
  1. [Testing](#Testing)
  1. [User Stories Met](#User-Stories-Met)
  1. [Bugs](#Bugs)
@@ -155,21 +155,17 @@ All these images were uploaded to the site initially and were placed on the gall
 There are several features on this site to help users get the most out of their visit to the site.  
 
 ### General:
-#### Header and Navigation:  
 
-#### Footer:  
+### Home Page:
 
-### Home page:
-  
-#### Main Section:
+### Questions:
 
-### Game Page:
+### Score:
+
+### Leader Board:
 
 ## Future Features:
-* A rolling gallery in the *Gallery* page instead of a static gallery.
-* An upload your images section which allows users to upload images of recipes they have tried out.
-* A shop where users can buy vouchers or cooking equipment and accessories. 
-* A rolling testimonial in the footer, allowing users to see feedback from previous clients.
+* 
 
 ***
 [Back to top](#Quiz-Time)  

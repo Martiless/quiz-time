@@ -66,7 +66,7 @@
      }
  ]
 
-tvQuestions[{
+ tvQuestions[{
          "question": "Who has selective mutism in The Big Bang Theory?",
          "answers": ["Howard", "Amy", "Raj", "Stuart"],
          "correctAnswer": "Raj",
@@ -136,33 +136,33 @@ tvQuestions[{
 
  playerArray = [{
          "name": "Martiless",
-              },
+     },
      {
          "name": "Stevomar",
-             },
+     },
      {
          "name": "Lilybells",
-              },
+     },
      {
          "name": "Sparkimus",
-              },
+     },
      {
          "name": "Golagol",
-              } {
+     } {
          "name": "Jon Snow",
-              },
+     },
      {
          "name": "Tensoon",
-              },
+     },
      {
          "name": "fast_and_the_curious",
      },
      {
          "name": "Mr Pink",
-              },
+     },
      {
          "name": "Star Lord",
-        
+
      }
 
  ]

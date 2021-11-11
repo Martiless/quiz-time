@@ -1,135 +1,177 @@
- const movieQuestions [{
-            question: "What’s the name of the skyscraper in Die Hard?",
-            answers: ["Nakatomi Plaza", "Nakatomi Tower", "Nakatomi Building", "Nakatomi Place"],
-            corectAnswer: "Nakatomi Plaza",
-        }
+ const movieQuestions[{
+         question: "What’s the name of the skyscraper in Die Hard?",
+         answers: ["Nakatomi Plaza", "Nakatomi Tower", "Nakatomi Building", "Nakatomi Place"],
+         corectAnswer: "Nakatomi Plaza",
+     }
 
-        {
-            question: "In which of his movies does Robert De Niro famously say “You talkin’ to me?”",
-            answers: ["Scar Face", "Taxi Driver", "Raging Bull", "Goodfellas"],
-            corectAnswer: "Taxi Driver",
+     {
+         question: "In which of his movies does Robert De Niro famously say “You talkin’ to me?”",
+         answers: ["Scar Face", "Taxi Driver", "Raging Bull", "Goodfellas"],
+         corectAnswer: "Taxi Driver",
 
-        }
+     }
 
-        {
-            question: "Which award winning director plays Korg in Thor: Ragnarok",
-            answers: ["Tim Burton", "J. J. Abrams", "Taika Waititi", "Anthony Rosso"],
-            corectAnswer: "Taika Waititi",
+     {
+         question: "Which award winning director plays Korg in Thor: Ragnarok",
+         answers: ["Tim Burton", "J. J. Abrams", "Taika Waititi", "Anthony Rosso"],
+         corectAnswer: "Taika Waititi",
 
-        }
+     }
 
-        {
-            question: "Who is the only actor to receive an Oscar nomination for acting in a Lord of the Rings movie?",
-            answers: ["Elijah Wood", "Ian McKellen", "Andy Serkis", "Hugo Weaving"],
-            corectAnswer: "Ian McKellen",
+     {
+         question: "Who is the only actor to receive an Oscar nomination for acting in a Lord of the Rings movie?",
+         answers: ["Elijah Wood", "Ian McKellen", "Andy Serkis", "Hugo Weaving"],
+         corectAnswer: "Ian McKellen",
 
-        }
+     }
 
-        {
-            question: "What song plays over the opening credits of Guardians of the Galaxy?",
-            answers: ["Come and Get Your Love", "Fox on the Run", "Oooh Child", "Hooked on a Feeling"],
-            corectAnswer: "Come and Get Your Love",
+     {
+         question: "What song plays over the opening credits of Guardians of the Galaxy?",
+         answers: ["Come and Get Your Love", "Fox on the Run", "Oooh Child", "Hooked on a Feeling"],
+         corectAnswer: "Come and Get Your Love",
 
-        }
+     }
 
-        {
-            question: "Which Harry Potter star will be playing the dark knight in Matt Reeves upcoming movie 'The Batman'?",
-            answers: ["Tom Felton", "Daniel Radcliffe", "Matthew Lewis", "Robert Pattinson"],
-            corectAnswer: "Robert Pattinson",
+     {
+         question: "Which Harry Potter star will be playing the dark knight in Matt Reeves upcoming movie 'The Batman'?",
+         answers: ["Tom Felton", "Daniel Radcliffe", "Matthew Lewis", "Robert Pattinson"],
+         corectAnswer: "Robert Pattinson",
 
-        }
+     }
 
-        {
-            question: "What is the highest-grossing movie of all time (not adjusted for inflation)?",
-            answers: ["Titanic", "Avatar", "Avengers Endgame", "Star Wars V"],
-            corectAnswer: "Avengers Endgame",
+     {
+         question: "What is the highest-grossing movie of all time (not adjusted for inflation)?",
+         answers: ["Titanic", "Avatar", "Avengers Endgame", "Star Wars V"],
+         corectAnswer: "Avengers Endgame",
 
-        }
+     }
 
-        {
-            question: "Which one of these movies did Margot Robbie receive an oscar nomination for?",
-            answers: ["Wolf of Wall Street", "I, Tonya", "Suicide Squad", "Once Upon A Time In Hollywood"],
-            corectAnswer: "I, Tonya",
+     {
+         question: "Which one of these movies did Margot Robbie receive an oscar nomination for?",
+         answers: ["Wolf of Wall Street", "I, Tonya", "Suicide Squad", "Once Upon A Time In Hollywood"],
+         corectAnswer: "I, Tonya",
 
-        }
+     }
 
-        {
-            question: "What was Quentin Tarantino‘s first feature as writer/director?",
-            answers: ["Jackie Brown", "Reservoir Dogs", "Pulp Fiction", "From Dusk Till Dawn"],
-            corectAnswer: "Reservoir Dogs",
+     {
+         question: "What was Quentin Tarantino‘s first feature as writer/director?",
+         answers: ["Jackie Brown", "Reservoir Dogs", "Pulp Fiction", "From Dusk Till Dawn"],
+         corectAnswer: "Reservoir Dogs",
 
-        } {
-            question: "Which one of these Tim Burton films did composer Danny Elfman voice a character?",
-            answers: ["Bettle Juice", "Nightmare Before Christmas", "Planet of the Apes", "Frankenweenie"],
-            corectAnswer: "Nightmare Before Christmas",
+     } {
+         question: "Which one of these Tim Burton films did composer Danny Elfman voice a character?",
+         answers: ["Bettle Juice", "Nightmare Before Christmas", "Planet of the Apes", "Frankenweenie"],
+         corectAnswer: "Nightmare Before Christmas",
 
-        }
-    ]
+     }
+ ]
 
-        const tvQuestions [{
-            question: "Who has selective mutism in The Big Bang Theory?",
-            answers: ["Howard", "Amy", "Raj", "Stuart"],
-            corectAnswer: "Raj",
-        }
+ const tvQuestions[{
+         question: "Who has selective mutism in The Big Bang Theory?",
+         answers: ["Howard", "Amy", "Raj", "Stuart"],
+         corectAnswer: "Raj",
+     }
 
-        {
-            question: "What is Dexter Morgan's profession in the show 'Dexter'",
-            answers: ["Homicide Detective", "Blood Spatter Analyst", "Morgue Technician", "Barista"],
-            corectAnswer: "Blood Spatter Analyst",
+     {
+         question: "What is Dexter Morgan's profession in the show 'Dexter'",
+         answers: ["Homicide Detective", "Blood Spatter Analyst", "Morgue Technician", "Barista"],
+         corectAnswer: "Blood Spatter Analyst",
 
-        }
+     }
 
-        {
-            question: "What actor plays Marty Byrde in 'Ozark'?",
-            answers: ["Jason Bateman", "Jerry O'Connell", "Nathan Fillion", "Liev Schreiber"],
-            corectAnswer: "Jason Bateman",
+     {
+         question: "What actor plays Marty Byrde in 'Ozark'?",
+         answers: ["Jason Bateman", "Jerry O'Connell", "Nathan Fillion", "Liev Schreiber"],
+         corectAnswer: "Jason Bateman",
 
-        }
+     }
 
-        {
-            question: "In 'Master of None' where does Dev move to after being dropped from a big sci-fi movie?",
-            answers: ["France", "Spain", "Greece", "Italy"],
-            corectAnswer: "Italy",
+     {
+         question: "In 'Master of None' where does Dev move to after being dropped from a big sci-fi movie?",
+         answers: ["France", "Spain", "Greece", "Italy"],
+         corectAnswer: "Italy",
 
-        }
+     }
 
-        {
-            question: "What actor plays 11 in the hit TV show 'Stranger Things'",
-            answers: ["Amelia Crouch", "Elle Fanning", "Chloë Grace Moretz", "Millie Bobby Brown"],
-            corectAnswer: "Millie Bobby Brown",
+     {
+         question: "What actor plays 11 in the hit TV show 'Stranger Things'",
+         answers: ["Amelia Crouch", "Elle Fanning", "Chloë Grace Moretz", "Millie Bobby Brown"],
+         corectAnswer: "Millie Bobby Brown",
 
-        }
+     }
 
-        {
-            question: "Phil Coulson is a character portrayed by which actor in TV's 'Agents of S.H.I.E.L.D.'?",
-            answers: ["Marc Evan Jackson", "Clark Gregg", "Alistair Petrie", "Colin Firth"],
-            corectAnswer: "Clark Gregg",
+     {
+         question: "Phil Coulson is a character portrayed by which actor in TV's 'Agents of S.H.I.E.L.D.'?",
+         answers: ["Marc Evan Jackson", "Clark Gregg", "Alistair Petrie", "Colin Firth"],
+         corectAnswer: "Clark Gregg",
 
-        }
+     }
 
-        {
-            question: "In what U.S. state is Breaking Bad set?",
-            answers: ["New Mexico", "Virginia", "Arizona", "Oregon"],
-            corectAnswer: "New Mexico",
+     {
+         question: "In what U.S. state is Breaking Bad set?",
+         answers: ["New Mexico", "Virginia", "Arizona", "Oregon"],
+         corectAnswer: "New Mexico",
 
-        }
+     }
 
-        {
-            question: "Which one of this people do NOT appear in Netflix 'The Tiger King'?",
-            answers: ["Jeff Lowe", "Carole Baskin", "Joe Exotic", "Selina Kyle"],
-            corectAnswer: "Selina Kyle",
+     {
+         question: "Which one of this people do NOT appear in Netflix 'The Tiger King'?",
+         answers: ["Jeff Lowe", "Carole Baskin", "Joe Exotic", "Selina Kyle"],
+         corectAnswer: "Selina Kyle",
 
-        }
+     }
 
-        {
-            question: "Scrubs actor Zach Braff directed an episode of which award winning TV show about soccor?",
-            answers: ["Ted Lasso", "The Kicks", "All or Nothing", "Club of Crows"],
-            corectAnswer: "Ted Lasso",
+     {
+         question: "Scrubs actor Zach Braff directed an episode of which award winning TV show about soccor?",
+         answers: ["Ted Lasso", "The Kicks", "All or Nothing", "Club of Crows"],
+         corectAnswer: "Ted Lasso",
 
-        } {
-            question: "Brooklyn Nine Nine star Andy Samberg is also a member of which comedy band?",
-            answers: ["Tenacious D", "The Lonley Island", "Flight of the Conchords", "Spinal Tap"],
-            corectAnswer: "The Lonley Island",
+     } {
+         question: "Brooklyn Nine Nine star Andy Samberg is also a member of which comedy band?",
+         answers: ["Tenacious D", "The Lonley Island", "Flight of the Conchords", "Spinal Tap"],
+         corectAnswer: "The Lonley Island",
 
-        }
-    ]
+     }
+ ]
+
+ const playerArray = [{
+         name: "Martiless",
+         id: "player1"
+     },
+     {
+         name: "Stevomar",
+         id: "player2"
+     },
+     {
+         name: "Lilybells",
+         id: "player3"
+     },
+     {
+         name: "Sparkimus",
+         id: "player4"
+     },
+     {
+         name: "Golagol",
+         id: "player5"
+     } {
+         name: "Jon Snow",
+         id: "player6"
+     },
+     {
+         name: "Tensoon",
+         id: "player7"
+     },
+     {
+         name: "fast_and_the_curious",
+         id: "player8"
+     },
+     {
+         name: "Mr Pink",
+         id: "player9"
+     },
+     {
+         name: "Star Lord",
+         id: "player10"
+     }
+
+ ]

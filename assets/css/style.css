@@ -3,7 +3,7 @@
 /* General styling to whole page */
 body {
     font-family: Marvel, sans-serif;
-    
+
 
 }
 
@@ -23,19 +23,33 @@ body {
 }
 
 /* Question choice area*/
-#choice-panel {
+.choice-panel {
     text-align: center;
     width: 75%;
     border: 5px solid black;
     margin: auto;
-    padding-top: 10px;
-    ;
+    padding: 10px 0 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2px;
+    
 }
 
-.movie-questions {
-    flex-wrap: wrap;
-    box-shadow: #A9E5BB;
+#movie-image {
+    width: 50%;
+    height: auto;
+    clear: both;
+    object-fit: cover;
 }
+
+#tv-image {
+    width: 50%;
+    height: auto;
+    clear: both;
+    object-fit: cover;
+}
+
+/* Questions Area*/
 
 #questions-panel {
     text-align: center;
@@ -43,7 +57,6 @@ body {
     border: 5px solid black;
     margin: auto;
     padding-top: 10px;
-    ;
 }
 
 #score-panel {
@@ -73,15 +86,3 @@ body {
     ;
 }
 
-/* Quiz choice images */
-
-#movie-image {
-    width: 250px;
-    height: 200px;
-    
-}
-
-#tv-image {
-    width: 250px;
-    height: 200px;
-}

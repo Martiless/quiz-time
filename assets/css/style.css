@@ -1,12 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Marvel:ital,wght@0,700;1,400&display=swap');
 
+/* General styling to whole page */
 body {
-    text-align: center;
     font-family: Marvel, sans-serif;
     font-size: large;
     color: orangered;
 }
 
-.heading {
+/* Styling of 6 panels on the page that will hold the quiz information */
+#heading {
+    text-align: center;
+    width: 75%;
+    border: 5px solid black;
+    margin: auto;
+    ;
+}
+
+#choice-panel {
+    text-align: center;
+    width: 75%;
+    border: 5px solid black;
+    margin: auto;
+    padding-top: 10px;
+    ;
+}
+
+#questions-panel {
+    text-align: center;
+    width: 75%;
+    border: 5px solid black;
+    margin: auto;
+    padding-top: 10px;
+    ;
+}
+
+#score-panel {
+    text-align: center;
+    width: 75%;
+    border: 5px solid black;
+    margin: auto;
+    padding-top: 10px;
+    ;
+}
+
+#username {
+    text-align: center;
+    width: 75%;
+    border: 5px solid black;
+    margin: auto;
+    padding-top: 10px;
+    ;
+}
+
+#leader-board {
+    text-align: center;
+    width: 75%;
+    border: 5px solid black;
+    margin: auto;
+    padding-top: 10px;
+    ;
+}
+
+/* Quiz choice images */
+
+#movie-image {
+    width: 250px;
+    height: 200px;
     
 }
+
+#tv-image {
+    width: 250px;
+    height: 2000px;
+    

@@ -3,11 +3,11 @@
 /* General styling to whole page */
 body {
     font-family: Marvel, sans-serif;
-    font-size: large;
-    color: orangered;
+    
+
 }
 
-/* Styling of 6 panels on the page that will hold the quiz information */
+/* heading area */
 #heading {
     text-align: center;
     width: 75%;
@@ -16,6 +16,13 @@ body {
     ;
 }
 
+.logo {
+    font-size: 80px;
+    color: #381741;
+    text-shadow: 2px 2px 4px #E3170A;
+}
+
+/* Question choice area*/
 #choice-panel {
     text-align: center;
     width: 75%;
@@ -23,6 +30,11 @@ body {
     margin: auto;
     padding-top: 10px;
     ;
+}
+
+.movie-questions {
+    flex-wrap: wrap;
+    box-shadow: #A9E5BB;
 }
 
 #questions-panel {
@@ -71,5 +83,5 @@ body {
 
 #tv-image {
     width: 250px;
-    height: 2000px;
-    
+    height: 200px;
+}

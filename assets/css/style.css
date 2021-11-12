@@ -32,7 +32,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 2px;
-    
+
 }
 
 #movie-image {
@@ -59,6 +59,113 @@ body {
     padding-top: 10px;
 }
 
+.question-area {
+    border: 2px solid black;
+    width: 50%;
+    display: inline-block;
+}
+
+/* Answer Buttons*/
+
+.answer-area {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+#btn1 {
+    font-size: 23px;
+    border-radius: 13px;
+    border: 1px;
+    background-color: #E3170A;
+    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 32%);
+    color: antiquewhite;
+    padding: 15px;
+    width: 50%;
+    margin: auto;
+    cursor: pointer;
+}
+
+#btn1:hover {
+    background-color: antiquewhite;
+    color: #E3170A;
+}
+
+#btn2 {
+    font-size: 23px;
+    border-radius: 13px;
+    border: 1px;
+    background-color: #E3170A;
+    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 32%);
+    color: antiquewhite;
+    padding: 15px;
+    width: 50%;
+    margin: auto;
+    cursor: pointer;
+}
+
+#btn2:hover {
+    background-color: antiquewhite;
+    color: #E3170A;
+}
+
+#btn3 {
+    font-size: 23px;
+    border-radius: 13px;
+    border: 1px;
+    background-color: #E3170A;
+    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 32%);
+    color: antiquewhite;
+    padding: 15px;
+    width: 50%;
+    margin: auto;
+    cursor: pointer;
+}
+
+#btn3:hover {
+    background-color: antiquewhite;
+    color: #E3170A;
+}
+
+#btn4 {
+    font-size: 23px;
+    border-radius: 13px;
+    border: 1px;
+    background-color: #E3170A;
+    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 32%);
+    color: antiquewhite;
+    padding: 15px;
+    width: 50%;
+    margin: auto;
+    cursor: pointer;
+}
+
+#btn4:hover {
+    background-color: antiquewhite;
+    color: #E3170A;
+}
+
+.btn-submit {
+    font-size: 23px;
+    border-radius: 13px;
+    border: 1px;
+    background-color: #A9e5BB;
+    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 32%);
+    color: #2d1e2f;
+    padding: 15px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: #2d1e2f;
+    color: #A9e5BB;
+}
+
+
+/* Score area */
+
+
 #score-panel {
     text-align: center;
     width: 75%;
@@ -68,6 +175,19 @@ body {
     ;
 }
 
+.score-area {
+    margin: 5px auto;
+    width: 60%;
+    font-size: 1.2rem;
+}
+
+.scores {
+    font-size: x-large;
+    display: inline-block;
+    padding: 25px;
+}
+
+/* Username Area */
 #username {
     text-align: center;
     width: 75%;
@@ -77,6 +197,8 @@ body {
     ;
 }
 
+
+/* Leader Board Area */
 #leader-board {
     text-align: center;
     width: 75%;
@@ -85,4 +207,3 @@ body {
     padding-top: 10px;
     ;
 }
-

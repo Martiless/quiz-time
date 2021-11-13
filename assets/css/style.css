@@ -29,12 +29,62 @@ body {
     border: 5px solid black;
     margin: auto;
     padding: 10px 0 10px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 2px;
 
 }
+.btn {
+    width: 220px;
+    height: 60px;
+    font-family: "Marvel", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    color: white;
+}
 
+.btn:focus {
+    outline: none;
+}
+
+.btn--big {
+    padding-top: 10px;
+    background-color: white;
+    width: auto;
+    height: auto;
+    font-size: 145px;
+    margin: 0 30px;
+}
+
+.btn--big::after {
+	content: attr(data-type);
+	font-size: 1rem;
+	color: #445361;
+	position: relative;
+	left: -0.5em;
+}
+
+.btn--blue {
+    color:#A9e5BB;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.btn--blue:active,
+.btn--blue:hover {
+    background-color: #381741;
+    color: white;
+}
+
+.btn--red {
+    color: #E3170A;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.btn--red:active,
+.btn--red:hover {
+    background-color: #381741;
+    color: white;
+}
+/*
 #movie-image {
     width: 50%;
     height: auto;
@@ -47,7 +97,7 @@ body {
     height: auto;
     clear: both;
     object-fit: cover;
-}
+}*/
 
 /* Questions Area*/
 
@@ -242,7 +292,6 @@ body {
     text-shadow: 2px 2px 4px #E3170A;
     padding: 15px;
 }
-
 #container {
 	width: auto;
 	height: auto;

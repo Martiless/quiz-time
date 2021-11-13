@@ -1,17 +1,9 @@
 // Wait for the DOM to finish loading before game runs. 
 // Code used in this project is influneced by code used in Code Institutes Love Maths project.
-document.addEventListener("DOMContentLoaded", function () {
-    let buttons = document.getElementsByClassName("dif-btn");
+document.addEventListener("DOMContentLoaded", function() {
+    let buttons = document.getElementsByTagName
+})
 
-    for (let button of buttons) {
-        button.addEventListener("click", function () {
-            if (this.getAttribute("data-type")) {
-                let gameDif = this.getAttribute("data-type");
-                runGame(gameDif);
-            }
-        });
-    }
-});
 
 function startGame() {
 

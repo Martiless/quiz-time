@@ -48,13 +48,13 @@ It was designed to allow users to take 5 minutes out of their day to unwind and 
 
 The goals for this site are as follows:
 * To provide users with a fun interactive game.
-* To test the users knowledge of 'x'.
+* To test the users knowledge of popular Movies and TV Shows.
 
 ## UX:
 
 ### User stories:
 #### New User:  
-* As a new user, I am looking to find play an online game that tests my knowledge of 'x'  
+* As a new user, I am looking to find play an online game that tests my knowledge of popular Movies and TV Shows.  
 * As a new user, I would like to keep trace of my score as I progress through the quiz.  
 * As a new user, I would like to get live feedback of my answers.   
 
@@ -192,6 +192,7 @@ For the purpose of this project, the following technologies were used.
 
 ### Languages:
 * JavaScript
+* JSON
 * HTML
 * CSS 
 

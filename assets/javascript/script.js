@@ -1,27 +1,36 @@
 let moviesQuestions = JSON.parse(localStorage.getItem('moviequestions')) || [];
-let tvShowQuestions = JSON.parse(localStorage.getItem('tvquestions')) ||[];
+let tvShowQuestions = JSON.parse(localStorage.getItem('tvquestions')) || [];
+let leaderBoard = JSON.parse(localStorage.getItem('leaderboard')) || [];
+
 
 // Wait for the DOM to finish loading before game runs. 
 // Code used in this project is influneced by code used in Code Institutes Love Maths project.
+
 document.addEventListener("DOMContentLoaded", function () {
-        let button = document.getElementsByTagName("buttons")
+    let buttons = document.getElementsByTagName("button");
 
-        for (let button of buttons) {
-            button.addEventListener("click", function() {
-                if (this.getAttribute("data-type") === "movies") {
-                    alert("You have picked movies!");
-                } else (this.getAttribute("data-type") === "tv-shows") {
-                    alert("You have picked tv shows!");
-                }
-            });
-        }
-    
-    });
+    for (let button of buttons) {
+        button.addEventListener("click", function () {
+            if (this.getAttribute("data-type") === "submit") {
+                alert("You clicked submit!");
+            } else {
+                let gameType = this.getAttribute("data-type");
+                startGame(gameType);
+            }
+        });
+    };
+    startGame("movie");
+});
 
-
-function startGame() {
-
-   
+function startGame(gameType) {
+    if (gameType === "movies") {
+        displayMovieQuestions;
+} else if (gameType === "tvshows"){
+        displayTVQuestions; 
+ } else {
+    alert(`Unknown game type ${gameType}`);
+    throw `Unknown game type ${gameType}, aborting!`;
+}
 }
 
 function checkAnswers() {

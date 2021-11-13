@@ -65,6 +65,7 @@ body {
     color:#A9e5BB;
     display: inline-block;
     border-radius: 50%;
+    border: none;
 }
 
 .btn--blue:active,
@@ -77,6 +78,7 @@ body {
     color: #E3170A;
     display: inline-block;
     border-radius: 50%;
+    border: none;
 }
 
 .btn--red:active,

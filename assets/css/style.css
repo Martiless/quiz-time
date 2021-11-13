@@ -188,7 +188,7 @@ body {
 }
 
 /* Username Area */
-#username {
+#username-area {
     text-align: center;
     width: 75%;
     border: 5px solid black;
@@ -197,6 +197,37 @@ body {
     ;
 }
 
+.congrats-message {
+    font-size: xx-large;
+    text-shadow: 2px 2px 4px #E3170A;
+    padding: 15px;
+}
+
+.enter-name {
+    font-size: xx-large;
+    padding: inherit;
+
+}
+
+.username {
+    font-size: x-large;
+    padding: inherit;
+}
+
+#username-submit-btn {
+    font-size: 20px;
+    background-color: #E3170A;
+    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 32%);
+    color: antiquewhite;
+    width: 20%;
+    margin: 15px;
+    cursor: pointer;
+}
+
+#username-submit-btn:hover {
+    background-color: antiquewhite;
+    color: #E3170A;
+}
 
 /* Leader Board Area */
 #leader-board {
@@ -205,5 +236,26 @@ body {
     border: 5px solid black;
     margin: auto;
     padding-top: 10px;
-    ;
+}
+#board-header {
+    font-size: xx-large;
+    text-shadow: 2px 2px 4px #E3170A;
+    padding: 15px;
+}
+
+#container {
+	width: auto;
+	height: auto;
+}
+
+.row {
+	display: inline;
+	border-bottom: 1px solid #381741;
+}
+
+.name {
+	position: relative;
+	display: inline-block;
+	width: 50%;
+	line-height: 45px;
 }

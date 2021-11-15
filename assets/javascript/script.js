@@ -46,17 +46,23 @@ function firstQuestion() {
     startQuestions(shuffledQuestions[currentQuestionIndex])
 }
 
+/*NEED TO COME BACK AND TAKE A LOOK AT THIS!!!*/
 function startQuestions(questions){
     questionsElement.innerText = questions.question
     questions.answers.forEach(answers => {
-        const answer = getElementById('answer-btn')
-        answer.innerText = answers.text
-        
-    });
-
-}
+        const button = document.createElement('button')
+        button.innerText = answers.text
+        button.classList.add('answer-btn')
+        if (answer.correct) {
+          button.dataset.correct = answer.correct
+        }
+        button.addEventListener('click', selectAnswer)
+        answerButtonsElement.appendChild(button)
+      })
+    }
 
 function nextQuestion () {
+    answerButtonsElement
 
 }
 
@@ -87,12 +93,21 @@ function finshGame() {
 
 }
 
-function updateLeaderBoard() {}
+/*NEED TO COME BACK AND TAKE A LOOK AT THIS!!!*/
+function updateLeaderBoard() {
+    let leaderboard = document.getElementById("leader-board");
+    leaderboard.innerHTML = "leaderBoard.name";
+}
 
 const questions = [{
         question: "Who has selective mutism in The Big Bang Theory?",
-        answers: ["Howard", "Amy", "Raj", "Stuart"],
-        correctAnswer: "Raj"
+        answers: {
+            a: "Howard",
+            b: "Amy", 
+            c: "Raj", 
+            d: "Stuart",
+        },
+        correctAnswer: "c"
     },
 
  /*   {
@@ -226,4 +241,38 @@ const questions = [{
         correctAnswer: "Nightmare Before Christmas"
 
     }*/
+]
+
+const leaderBoard= [ {
+    
+    name: "Martiless"
+},
+{
+    name: "Stevomar"
+},
+{
+    name: "Lilybells"
+},
+{
+    name: "Sparkimus"
+},
+{
+    name: "Golagol"
+},
+{
+    name: "Jon Snow"
+},
+{
+    name: "Tensoon"
+},
+{
+    name: "fast_and_the_curious"
+},
+{
+    name: "Mr Pink"
+},
+{
+    name: "Star Lord"
+}
+
 ]

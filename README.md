@@ -186,7 +186,7 @@ Testing information can be viewed [here](TESTING.md "Link to testing information
 1. Hiding all elements of the quiz at the start of the game.
       1. This was achieved by removing elements of the css code that was over writting the class of 'hidden' 
 1. Getting the answers selection to appear in the quiz once the start button was clicked by the used. 
-      1. 
+      1. After a lot of time going over the code and 
 1. Linking the JSON file to the JavaScript file in order to input the questions and the lead-board names
       1. My inital way of getting around this was to input all the relevant information at the bottom of the JavaScript file.
 

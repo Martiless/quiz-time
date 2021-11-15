@@ -3,6 +3,8 @@
 /* General styling to whole page */
 body {
     font-family: Marvel, sans-serif;
+    background-color: #F7B32B;
+    
 
 
 }
@@ -22,15 +24,7 @@ body {
     text-shadow: 2px 2px 4px #E3170A;
 }
 
-/* Question choice area*/
-.choice-panel {
-    text-align: center;
-    width: 75%;
-    border: 5px solid black;
-    margin: auto;
-    padding: 10px 0 10px;
-
-}
+/* Start button area*/
 
 #start-btn {
     font-size: 50px;
@@ -50,92 +44,23 @@ body {
     background-color: antiquewhite;
     color: #E3170A;
 }
-/*
-.btn {
-    width: 220px;
-    height: 60px;
-    font-family: "Marvel", sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 1.2px;
-    color: white;
-}
-
-.btn:focus {
-    outline: none;
-}
-
-.btn--big {
-    padding-top: 10px;
-    background-color: white;
-    width: auto;
-    height: auto;
-    font-size: 145px;
-    margin: 0 30px;
-}
-
-.btn--big::after {
-	content: attr(data-type);
-	font-size: 1rem;
-	color: #445361;
-	position: relative;
-	left: -0.5em;
-}
-
-.btn--blue {
-    color:#A9e5BB;
-    display: inline-block;
-    border-radius: 50%;
-    border: none;
-}
-
-.btn--blue:active,
-.btn--blue:hover {
-    background-color: #381741;
-    color: white;
-}
-
-.btn--red {
-    color: #E3170A;
-    display: inline-block;
-    border-radius: 50%;
-    border: none;
-}
-
-.btn--red:active,
-.btn--red:hover {
-    background-color: #381741;
-    color: white;
-}
-
-#movie-image {
-    width: 50%;
-    height: auto;
-    clear: both;
-    object-fit: cover;
-}
-
-#tv-image {
-    width: 50%;
-    height: auto;
-    clear: both;
-    object-fit: cover;
-}*/
 
 /* Questions Area*/
 
-#questions-panel {
+.main-area {
     text-align: center;
-    width: 75%;
+    max-width: 75%;
     border: 5px solid black;
+    border-radius: 10px;
     margin: auto;
     padding-top: 10px;
 }
 
-.question-area {
+/* #question-panel {
     border: 2px solid black;
     width: 50%;
     display: inline-block;
-}
+} */
 
 /* Answer Buttons*/
 
@@ -211,7 +136,16 @@ body {
     color: #E3170A;
 }
 
-.btn-submit {
+.correct-btn {
+    background-color: #03C04A;
+    color: black;
+}
+
+.incorrect-btn {
+    background-color: #d21404;
+}
+
+#submit-btn {
     font-size: 23px;
     border-radius: 13px;
     border: 1px;
@@ -223,7 +157,7 @@ body {
     cursor: pointer;
 }
 
-.btn-submit:hover {
+#submit-btn:hover {
     background-color: #2d1e2f;
     color: #A9e5BB;
 }
@@ -262,7 +196,6 @@ body {
     padding-top: 10px;
     ;
 }
-
 .congrats-message {
     font-size: xx-large;
     text-shadow: 2px 2px 4px #E3170A;
@@ -325,6 +258,6 @@ body {
 	line-height: 45px;
 }
 
-.hide {
+.hidden {
     display: none;
 }

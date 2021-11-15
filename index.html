@@ -16,54 +16,32 @@
         </h1>
     </section>
 
-    <section class="choice-panel">
-        <div class="buttons">
-            <button id="start-btn" class="start-btn btn" data-type="start-button">Let's start the game <i class="fas fa-photo-video"></i></button>
-<!--
-            <button data-type="movies" class="btn btn--big btn--red" aria-label="movies">
-                <i class="fas fa-film"></i>
-            </button>
-            <button data-type="tv-shows" class="btn btn--big btn--blue" aria-label="tv-shows">
-                <i class="fas fa-tv"></i>
-            </button>
-        -->
-
-
-            <!--  <a href="game.html">
-                <img src="assets/images/movie-image.jpg" alt="Movie Questions Image" id="movie-image"></a>
+    <section class="main-area">
+        <div id="question-panel" class="hidden">
+            <div id="questions">Question Area</div>
+            <div id="answer-buttons">
+                <button id="btn1"><span id="option1"></span>Holding Text 1</button>
+                <button id="btn2"><span id="option2"></span>Holding Text 2</button>
+                <button id="btn3"><span id="option3"></span>Holding Text 3</button>
+                <button id="btn4"><span id="option4"></span>Holding Text 4</button>
+            </div>
         </div>
-        <div class="tv-show-questions">
-            <a href="game.html">
-                <img src="assets/images/tv-image.jpg" alt="TV Show Questions Image" id="tv-image"></a>
-        </div>
-        </div>
-    </section>-->
-
-
-            <section id="questions-panel">
-                <div class="question-area">
-                    This is the question area.
-                </div>
-                <div class="answer-area">
-                    <div id="answer-buttons">
-                        <button id="btn1"><span id="option1"></span>Holding Text 1</button>
-                        <button id="btn2"><span id="option2"></span>Holding Text 2</button>
-                        <button id="btn3"><span id="option3"></span>Holding Text 3</button>
-                        <button id="btn4"><span id="option4"></span>Holding Text 4</button>
-                    </div>
-                </div>
-                <button data-type="submit-answer" class="btn-submit">Next</button>
+        <div id="buttons">
+            <button id="start-btn" class="start-btn btn" data-type="start-button">Let's start the game <i
+                    class="fas fa-photo-video"></i></button>
+            <button id="submit-btn" class="submit-btn btn hidden">Submit Answer</button>
         </div>
     </section>
 
-    <setion id="score-panel">
+
+    <setion id="score-panel" class="hidden">
         <div class="score-area">
             <p class="scores">Correct Answers <span id="correct">0</span></p>
             <p class="scores">Incorrect Answers <span id="incorrect">0</span></p>
         </div>
     </setion>
 
-    <section id="username-area">
+    <section id="username-area" class="hidden">
         <div class="congrats-message">
             CONGRATULATIONS YOU HAVE SCORED <span id=user-score>90</span><br>
         </div>
@@ -78,7 +56,7 @@
         <input type="submit" id="username-submit-btn">
     </section>
 
-    <section id="leader-board">
+    <section id="leader-board" class="hidden">
         <h1 id="board-header">Leader Board</h1>
         <div id="container">
             <div class="row">

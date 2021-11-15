@@ -3,40 +3,27 @@ let tvShowQuestions = JSON.parse(localStorage.getItem('tvquestions')) || [];
 let leaderBoard = JSON.parse(localStorage.getItem('leaderboard')) || [];
 
 const startButton = document.getElementById('start-btn')
-const questionPanelElement = document.getElementById('questions-panel')
-const questionElement = document.getElementsByClassName('questions-area')
-const answerButtonsElement = document.getElementById('answer-buttons')
+const questionPanelElement = document.getElementById('question-panel')
+const questionsElement = document.getElementById('questions')
+const answerButtonsElement = document.getElementById('submit-btn')
 const usernameElement = document.getElementById('username-area')
 
 let shuffledQuestions, currentQuestionIndex
 
 // Wait for the DOM to finish loading before game runs. 
 // Code used in this project is influneced by code used in Code Institutes Love Maths project.
-document.addEventListener("DOMContentLoaded", function () {
-    let buttons = document.getElementsByTagName("button");
-
-    for (let button of buttons) {
-        button.addEventListener("click", function () {
-            if (this.getAttribute("data-type") === "start-button") {
-                startGame();
-            } else {
-                alert("Press Start Game button");
-            }
-        });
-    }
-
-});
-
-questionPanelElement.classList.add('hide');
-usernameElement.classList.add('hide');
+startButton.addEventListener("click", startQuiz);
 
 
 
-function startGame() {
-    startButton.classList.add('hide')
-    shuffledQuestions = questions.sort(() => Math.random() - .5)
-    currentQuestionIndex = 0
-    questionContainerElement.classList.remove('hide')
+function startQuiz() {
+    console.log("The game has started")
+    startButton.classList.add('hidden')
+    questionPanelElement.classList.remove('hidden')
+}
+
+function nextQuestion() {
+
 }
 
 function checkAnswers() {
@@ -88,7 +75,7 @@ const questions = [{
         answers: ["Howard", "Amy", "Raj", "Stuart"],
         correctAnswer: "Raj"
     },
-
+/*
     {
         question: "What is Dexter Morgan's profession in the show 'Dexter'",
         answers: ["Homicide Detective", "Blood Spatter Analyst", "Morgue Technician", "Barista"],
@@ -220,4 +207,4 @@ const questions = [{
         correctAnswer: "Nightmare Before Christmas"
 
     }
-]
+] */

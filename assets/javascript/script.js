@@ -47,13 +47,10 @@ function firstQuestion() {
     startQuestions(shuffledQuestions[currentQuestionIndex])
 }
 
-/*NEED TO COME BACK AND TAKE A LOOK AT THIS!!!*/
+/* Creates answer buttons in the HTML to house the answer variables in the questions object below*/
 function startQuestions(questions) {
     questionsElement.innerText = questions.question
     questions.answers.forEach(answer => {
-        /*if (answer.correct === true) {
-            console.log(answer.text)
-        }*/
         let newButton = document.createElement('button')
         newButton.innerText = answer.text
         newButton.classList.add('answer-btn');
@@ -65,10 +62,10 @@ function startQuestions(questions) {
     })
 }
 
-/* Purley for testing purposes. Remove later */ 
-function two (answers) {}
+/* Purley for testing purposes. Remove later */
+function two(answers) {}
 
-/* Event listener for the answer selected by the user */ 
+/* Event listener for the answer selected by the user */
 
 
 function selectAnswer() {

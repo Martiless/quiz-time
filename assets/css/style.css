@@ -4,7 +4,7 @@
 body {
     font-family: Marvel, sans-serif;
     background-color: #F7B32B;
-    
+
 
 
 }
@@ -64,7 +64,7 @@ body {
 
 /* Answer Buttons*/
 
-#btn1 {
+.answer-btn {
     font-size: 23px;
     border-radius: 13px;
     border: 1px;
@@ -77,11 +77,11 @@ body {
     cursor: pointer;
 }
 
-#btn1:hover {
+.answer-btn:hover {
     background-color: antiquewhite;
     color: #E3170A;
 }
-
+/*
 #btn2 {
     font-size: 23px;
     border-radius: 13px;
@@ -135,7 +135,7 @@ body {
     background-color: antiquewhite;
     color: #E3170A;
 }
-
+*/
 .correct-btn {
     background-color: #03C04A;
     color: black;
@@ -196,6 +196,7 @@ body {
     padding-top: 10px;
     ;
 }
+
 .congrats-message {
     font-size: xx-large;
     text-shadow: 2px 2px 4px #E3170A;
@@ -236,26 +237,28 @@ body {
     margin: auto;
     padding-top: 10px;
 }
+
 #board-header {
     font-size: xx-large;
     text-shadow: 2px 2px 4px #E3170A;
     padding: 15px;
 }
+
 #container {
-	width: auto;
-	height: auto;
+    width: auto;
+    height: auto;
 }
 
 .row {
-	display: inline;
-	border-bottom: 1px solid #381741;
+    display: inline;
+    border-bottom: 1px solid #381741;
 }
 
 .name {
-	position: relative;
-	display: inline-block;
-	width: 50%;
-	line-height: 45px;
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    line-height: 45px;
 }
 
 .hidden {

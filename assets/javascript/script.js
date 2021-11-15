@@ -12,17 +12,51 @@ let shuffledQuestions, currentQuestionIndex
 
 // Wait for the DOM to finish loading before game runs. 
 // Code used in this project is influneced by code used in Code Institutes Love Maths project.
-startButton.addEventListener("click", startQuiz);
+document.addEventListener("DOMContentLoaded", function () {
+    let buttons = document.getElementsByTagName("button");
+
+    for (let button of buttons) {
+        button.addEventListener("click", function () {
+            if (this.getAttribute("data-type") === "start-button") {
+                startGame();
+            } else {
+                alert("Press Start Game button");
+            }
+        });
+    }
+
+});
 
 
 
-function startQuiz() {
-    console.log("The game has started")
+
+/* This is the start of the game. Once the user clicks on the start game button the questions will appear on the screen */
+
+function startGame() {
+    console.log('StartGame')
     startButton.classList.add('hidden')
+    shuffledQuestions = questions.sort(() => Math.random() - .5)
+    currentQuestionIndex = 0
     questionPanelElement.classList.remove('hidden')
+    firstQuestion()
 }
 
-function nextQuestion() {
+/* Once the user has started the game this function will initiate the questions */
+function firstQuestion() {
+    startQuestions(shuffledQuestions[currentQuestionIndex])
+}
+
+function startQuestions(questions){
+    questionsElement.innerText = questions.question
+    questions.answers.forEach(answers => {
+        const answer = getElementById('answer-btn')
+        answer.innerText = answers.text
+        
+    });
+
+}
+
+function nextQuestion () {
 
 }
 
@@ -30,21 +64,6 @@ function checkAnswers() {
 
 }
 
-/**     function displayMovieQuestions(moviesQuestions) {
-        let moviesQuestions = Math.floor(Math.random() * moviesQuestions.length);
-        let current_question = moviesQuestions[movieQuestions_index];
-        gameQuestions.splice(movieQuestions_index, 1);
-        return current_question;
-
-
-    }
-
-    function displayTVQuestions(tvShowQuestions) {
-        let tvShowQuestions = Math.floor(Math.random() * tvShowQuestions.length);
-        let current_question = tvShowQuestions[tvShowQuestions_index];
-        gameQuestions.splice(list_index, 1);
-        return current_question;
-    }*/
 
 /**
  * Gets current correct score from the DOM nad increases it by 1
@@ -75,8 +94,8 @@ const questions = [{
         answers: ["Howard", "Amy", "Raj", "Stuart"],
         correctAnswer: "Raj"
     },
-/*
-    {
+
+ /*   {
         question: "What is Dexter Morgan's profession in the show 'Dexter'",
         answers: ["Homicide Detective", "Blood Spatter Analyst", "Morgue Technician", "Barista"],
         correctAnswer: "Blood Spatter Analyst"
@@ -206,5 +225,5 @@ const questions = [{
         answers: ["Bettle Juice", "Nightmare Before Christmas", "Planet of the Apes", "Frankenweenie"],
         correctAnswer: "Nightmare Before Christmas"
 
-    }
-] */
+    }*/
+]

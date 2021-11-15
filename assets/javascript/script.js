@@ -1,6 +1,6 @@
 let moviesQuestions = JSON.parse(localStorage.getItem('moviequestions')) || [];
 let tvShowQuestions = JSON.parse(localStorage.getItem('tvquestions')) || [];
-let leaderBoard = JSON.parse(localStorage.getItem('leaderboard')) || [];
+let leaderBoardNames = JSON.parse(localStorage.getItem('leaderboard')) || [];
 
 const startButton = document.getElementById('start-btn')
 const questionPanelElement = document.getElementById('question-panel')

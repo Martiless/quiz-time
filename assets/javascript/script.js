@@ -49,11 +49,11 @@ function firstQuestion() {
 /*NEED TO COME BACK AND TAKE A LOOK AT THIS!!!*/
 function startQuestions(questions){
     questionsElement.innerText = questions.question
-    questions.answers.forEach(answers => {
+    question.answers.forEach(answer => {
         const button = document.createElement('button')
-        button.innerText = answers.text
+        button.innerText = answer.text
         button.classList.add('answer-btn')
-        if (answer.correct) {
+        if (answer.correct); {
           button.dataset.correct = answer.correct
         }
         button.addEventListener('click', selectAnswer)
@@ -275,4 +275,4 @@ const leaderBoard= [ {
     name: "Star Lord"
 }
 
-]
+];

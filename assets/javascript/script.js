@@ -85,6 +85,7 @@ function checkAnswers() {
 /**
  * Gets current correct score from the DOM nad increases it by 1
  * This code was taken from Code Institutes Love Maths Project
+ * *WILL EDIT TO FIT GAME LATER
  */
 function correctAnswerScore() {
     let score = parseInt(document.getElementById("correct").innerText);
@@ -94,21 +95,28 @@ function correctAnswerScore() {
 /**
  * Gets current incorrect score from the DOM nad increases it by 1
  * This code was taken from Code Institutes Love Maths Project
+ * *WILL EDIT TO FIT GAME LATER
  */
 function incorrectAnswerScore() {
     let score = parseInt(document.getElementById("incorrect").innerText);
     document.getElementById("incorrect").innerText = ++score;
 }
 
+/* This function will be called at the end of the game. It will show the users score and also ask them to enter a username*/ 
 function finshGame() {
 
 }
 
+
+
 /*NEED TO COME BACK AND TAKE A LOOK AT THIS!!!*/
-function updateLeaderBoard() {
-    let leaderboard = document.getElementById("leader-board");
+function updateLeaderBoard(leaderBoard) {
+    let leaderboard = document.getElementById("container");
     leaderboard.innerHTML = "leaderBoard.name";
+    console.log('leadBoard.name')
 }
+
+/* List of questions for the quiz */
 
 const questions = [{
         question: "Who has selective mutism in The Big Bang Theory?",
@@ -264,6 +272,7 @@ const questions = [{
        }*/
 ]
 
+/* List of names that will popualte the leaderboard */
 const leaderBoard = [{
 
         name: "Martiless"

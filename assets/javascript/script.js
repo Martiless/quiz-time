@@ -27,9 +27,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 });
 
-
-
-
 /* This is the start of the game. Once the user clicks on the start game button the questions will appear on the screen */
 
 function startGame() {
@@ -38,7 +35,6 @@ function startGame() {
     shuffledQuestions = questions.sort(() => Math.random() - .5);
     currentQuestionIndex = 0;
     questionPanelElement.classList.remove('hidden');
-    submitButtonElement.classList.remove('hidden');
     firstQuestion();
 }
 
@@ -66,6 +62,7 @@ function startQuestions(questions) {
 /* Event listener for the answer selected by the user */
 
 function selectAnswer() {
+    submitButtonElement.classList.remove('hidden');
     if (questions.correct === true) {
         console.log('Correct Answer');
     } else {
@@ -73,16 +70,16 @@ function selectAnswer() {
     }
 }
 
-
-function nextQuestion() {
-
-
-}
-
+/* May not be needed if I can put it into the selectAnswers function*/
 function checkAnswers() {
 
 }
 
+/* Once the answer has been submitted this will load the next question */
+function nextQuestion() {
+
+
+}
 
 /**
  * Gets current correct score from the DOM nad increases it by 1

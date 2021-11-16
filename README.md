@@ -162,10 +162,8 @@ There are several features on this site to help users get the most out of their 
 
 ### Score:
 
-### Leader Board:
-
 ## Future Features:
-* 
+* Leader Board: Initally I wanted a leaderboard to pop up at the end of the game when the user entered a username to show the top ten scorers of the game. This table would have been populated by data that had been stored in a JavaScript file. However, with time restictions, it was decided that this element of the game, for now, would not be included.
 
 ***
 [Back to top](#Quiz-Time)  
@@ -188,7 +186,7 @@ Testing information can be viewed [here](TESTING.md "Link to testing information
 1. Getting the answers selection to appear in the quiz once the start button was clicked by the used. 
       1. After a lot of time going over the code, using Google Dev Tools and Jshint to see if there were any errors I got intouch with the Code Institute tutors who helped me see that I was using an element within the function that was not intended to be used in this function. Once I corrected this error the code worked exactly how it should have. 
 1. Linking the JSON file to the JavaScript file in order to input the questions and the lead-board names
-      1. My inital way of getting around this was to input all the relevant information at the bottom of the JavaScript file.
+      1. My inital way of getting around this was to input all the relevant information at the bottom of the JavaScript file. However after speaking to my mentor it was decided that the best way was to create a new JS file and import the script above the script.js file in the HTML. 
 
 ***
 [Back to top](#Quiz-Time) 

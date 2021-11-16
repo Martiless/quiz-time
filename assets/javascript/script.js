@@ -1,9 +1,10 @@
 const startButton = document.getElementById('start-btn');
 const questionPanelElement = document.getElementById('question-panel');
 const questionsElement = document.getElementById('questions');
-const submitButtonsElement = document.getElementById('submit-btn');
+const submitButtonElement = document.getElementById('submit-btn');
 const usernameElement = document.getElementById('username-area');
 const answerButtonsElement = document.getElementById('answer-buttons');
+const scorePanelElement = document.getElementById('score-panel');
 
 let shuffledQuestions, currentQuestionIndex;
 
@@ -37,6 +38,7 @@ function startGame() {
     shuffledQuestions = questions.sort(() => Math.random() - .5);
     currentQuestionIndex = 0;
     questionPanelElement.classList.remove('hidden');
+    submitButtonElement.classList.remove('hidden');
     firstQuestion();
 }
 
@@ -47,6 +49,7 @@ function firstQuestion() {
 
 /* Creates answer buttons in the HTML to house the answer variables in the questions object below*/
 function startQuestions(questions) {
+    scorePanelElement.classList.remove('hidden');
     questionsElement.innerText = questions.question;
     questions.answers.forEach(answer => {
         let newButton = document.createElement('button')
@@ -60,18 +63,19 @@ function startQuestions(questions) {
     })
 }
 
-/* Purley for testing purposes. Remove later */
-function two(answers) {}
-
 /* Event listener for the answer selected by the user */
 
-
 function selectAnswer() {
-
+    if (questions.correct === true) {
+        console.log('Correct Answer');
+    } else {
+        console.log('Wrong answer!');
+    }
 }
 
+
 function nextQuestion() {
-    answerButtonsElement
+
 
 }
 
@@ -100,7 +104,10 @@ function incorrectAnswerScore() {
     document.getElementById("incorrect").innerText = ++score;
 }
 
-/* This function will be called at the end of the game. It will show the users score and also ask them to enter a username*/ 
+/* This function will be called at the end of the game. It will show the users score and also ask them to enter a username*/
 function finshGame() {
+    questionPanelElement.classList.add('hidden');
+    scorePanelElement.classList.add('hidden');
+    usernameElement.classList.remove('hidden');
 
 }

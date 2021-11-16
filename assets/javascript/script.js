@@ -1,15 +1,13 @@
-/*let moviesQuestions = JSON.parse(localStorage.getItem('moviequestions')) || [];
-let tvShowQuestions = JSON.parse(localStorage.getItem('tvquestions')) || [];
-let leaderBoardNames = JSON.parse(localStorage.getItem('leaderboard')) || [];*/
+const startButton = document.getElementById('start-btn');
+const questionPanelElement = document.getElementById('question-panel');
+const questionsElement = document.getElementById('questions');
+const submitButtonsElement = document.getElementById('submit-btn');
+const usernameElement = document.getElementById('username-area');
+const answerButtonsElement = document.getElementById('answer-buttons');
 
-const startButton = document.getElementById('start-btn')
-const questionPanelElement = document.getElementById('question-panel')
-const questionsElement = document.getElementById('questions')
-const submitButtonsElement = document.getElementById('submit-btn')
-const usernameElement = document.getElementById('username-area')
-const answerButtonsElement = document.getElementById('answer-buttons')
+let shuffledQuestions, currentQuestionIndex;
 
-let shuffledQuestions, currentQuestionIndex
+console.log(questions)
 
 // Wait for the DOM to finish loading before game runs. 
 // Code used in this project is influneced by code used in Code Institutes Love Maths project.
@@ -34,22 +32,22 @@ document.addEventListener("DOMContentLoaded", function () {
 /* This is the start of the game. Once the user clicks on the start game button the questions will appear on the screen */
 
 function startGame() {
-    console.log('StartGame')
-    startButton.classList.add('hidden')
-    shuffledQuestions = questions.sort(() => Math.random() - .5)
-    currentQuestionIndex = 0
-    questionPanelElement.classList.remove('hidden')
-    firstQuestion()
+    console.log('StartGame');
+    startButton.classList.add('hidden');
+    shuffledQuestions = questions.sort(() => Math.random() - .5);
+    currentQuestionIndex = 0;
+    questionPanelElement.classList.remove('hidden');
+    firstQuestion();
 }
 
 /* Once the user has started the game this function will initiate the questions */
 function firstQuestion() {
-    startQuestions(shuffledQuestions[currentQuestionIndex])
+    startQuestions(shuffledQuestions[currentQuestionIndex]);
 }
 
 /* Creates answer buttons in the HTML to house the answer variables in the questions object below*/
 function startQuestions(questions) {
-    questionsElement.innerText = questions.question
+    questionsElement.innerText = questions.question;
     questions.answers.forEach(answer => {
         let newButton = document.createElement('button')
         newButton.innerText = answer.text
@@ -57,8 +55,8 @@ function startQuestions(questions) {
         if (answer.correct); {
             newButton.dataset.correct = answer.correct
         }
-        newButton.addEventListener('click', selectAnswer)
-        answerButtonsElement.appendChild(newButton)
+        newButton.addEventListener('click', selectAnswer);
+        answerButtonsElement.appendChild(newButton);
     })
 }
 
@@ -107,18 +105,9 @@ function finshGame() {
 
 }
 
-
-
-/*NEED TO COME BACK AND TAKE A LOOK AT THIS!!!*/
-function updateLeaderBoard(leaderBoard) {
-    let leaderboard = document.getElementById("container");
-    leaderboard.innerHTML = "leaderBoard.name";
-    console.log('leadBoard.name')
-}
-
 /* List of questions for the quiz */
 
-const questions = [{
+ /* const questions = [{
         question: "Who has selective mutism in The Big Bang Theory?",
         answers: [{
                 text: 'Howard',
@@ -139,7 +128,7 @@ const questions = [{
         ]
     },
 
-    /*   {
+     {
            question: "What is Dexter Morgan's profession in the show 'Dexter'",
            answers: ["Homicide Detective", "Blood Spatter Analyst", "Morgue Technician", "Barista"],
            correctAnswer: "Blood Spatter Analyst"
@@ -269,40 +258,7 @@ const questions = [{
            answers: ["Bettle Juice", "Nightmare Before Christmas", "Planet of the Apes", "Frankenweenie"],
            correctAnswer: "Nightmare Before Christmas"
 
-       }*/
-]
+       }
+]*/
 
 /* List of names that will popualte the leaderboard */
-const leaderBoard = [{
-
-        name: "Martiless"
-    },
-    {
-        name: "Stevomar"
-    },
-    {
-        name: "Lilybells"
-    },
-    {
-        name: "Sparkimus"
-    },
-    {
-        name: "Golagol"
-    },
-    {
-        name: "Jon Snow"
-    },
-    {
-        name: "Tensoon"
-    },
-    {
-        name: "fast_and_the_curious"
-    },
-    {
-        name: "Mr Pink"
-    },
-    {
-        name: "Star Lord"
-    }
-
-];

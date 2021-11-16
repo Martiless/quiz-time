@@ -26,6 +26,8 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
 });
+/*startButton.addEventListener('click', startGame);
+submitButtonElement.addEventListener('load', pushQuestions, resetPage);*/
 
 /* This is the start of the game. Once the user clicks on the start game button the questions will appear on the screen */
 
@@ -35,11 +37,11 @@ function startGame() {
     shuffledQuestions = questions.sort(() => Math.random() - .5);
     currentQuestionIndex = 0;
     questionPanelElement.classList.remove('hidden');
-    firstQuestion();
+    pushQuestions();
 }
 
 /* Once the user has started the game this function will initiate the questions */
-function firstQuestion() {
+function pushQuestions() {
     startQuestions(shuffledQuestions[currentQuestionIndex]);
 }
 
@@ -61,19 +63,46 @@ function startQuestions(questions) {
 
 /* Event listener for the answer selected by the user */
 
-function selectAnswer() {
-    submitButtonElement.classList.remove('hidden');
-    if (questions.correct === true) {
-        console.log('Correct Answer');
-    } else {
-        console.log('Wrong answer!');
-    }
+function selectAnswer(e) {
+    console.log("I'm here!")
+
+    const selectedButton = e.target;
+    const correct = selectedButton.dataset.correct;
+
+
+    // submitButtonElement.classList.remove('hidden');
+    // questions.answers.forEach(answer => {
+    //          if (answer.correct === true) {
+    //              console.log('Correct');
+    //          } else {
+    //              console.log('Wrong!');
+    //          }
+    //      })
+
 }
 
 /* May not be needed if I can put it into the selectAnswers function*/
-function checkAnswers() {
+function checkAnswers(element, correct) {
+    resetPage
+    if (correct) {
+        element.classList.add('correct-btn');
+    } else {
+        element.classList.add('incorrect-btn');
+    }
+}
+
+
+function resetPage(element) {
+    element.classList.remove('correct-btn')
+    element.classList.remove('incorrect-btn')
 
 }
+
+
+
+
+
+
 
 /* Once the answer has been submitted this will load the next question */
 function nextQuestion() {

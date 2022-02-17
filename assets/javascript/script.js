@@ -109,6 +109,12 @@ function checkAnswers(e) {
     answerChoice;
 }
 
+/* Increase the users score if the answer us correct */
+function userScore() {
+    scoreCounter++;
+    scoreCounterElemet.innerText = ++score;
+}
+
 /* May not be needed if I can put it into the selectAnswers function*/
 function checkAnswers(element, correct) {
     resetPage

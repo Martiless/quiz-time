@@ -1,16 +1,31 @@
+// Constants
 const startButton = document.getElementById('start-btn');
+const restartButton = document.getElementById('restart-btn');
 const questionPanelElement = document.getElementById('question-panel');
 const questionsElement = document.getElementById('questions');
-const submitButtonElement = document.getElementById('submit-btn');
+const nextButtonElement = document.getElementById('next-btn');
 const usernameElement = document.getElementById('username-area');
+const enterNameElement = document.getElementById('enter-name');
+const submitButtonElement = document.getElementById('submit-btn');
 const answerButtonsElement = document.getElementById('answer-buttons');
 const scorePanelElement = document.getElementById('score-panel');
+const userScoreElement = document.getElementById('user-score');
+const scoreCounterElemet = document.getElementById('score-counter');
+const questionCounterElement = document.getElementById('question-counter');
 
+// Wait for the DOM to finish loading before game runs. 
+document.addEventListener("DOMContentLoaded", startButton);
+
+// Variables
 let shuffledQuestions, currentQuestionIndex;
+let questionCounter = 1;
+let scoreCounter = 0;
+let score = 0;
+let maxQuestions = 10;
 
 console.log(questions)
 
-// Wait for the DOM to finish loading before game runs. 
+// 
 // Code used in this project is influneced by code used in Code Institutes Love Maths project.
 document.addEventListener("DOMContentLoaded", function () {
     let buttons = document.getElementsByTagName("button");

@@ -26,50 +26,39 @@ let maxQuestions = 10;
 // Event Listeners
 startButton.addEventListener("click", startGame);
 restartButton.addEventListener("click", () => {
-    resetScreen()
-    restartGame()
+    resetScreen();
+    restartGame();
 });
 nextButtonElement.addEventListener("click", () => {
     currentQuestionIndex++
-    nextQuestion()
+    nextQuestion();
 })
 submitButtonElement.addEventListener("click", () => {
     alert("Thank you for submitting your username. We hope you enjoyed our game. Please press 'Restart Game' to play again 😎")
 })
 
-
-// Code used in this project is influneced by code used in Code Institutes Love Maths project.
-document.addEventListener("DOMContentLoaded", function () {
-    let buttons = document.getElementsByTagName("button");
-
-    for (let button of buttons) {
-        button.addEventListener("click", function () {
-            if (this.getAttribute("data-type") === "start-button") {
-                startGame();
-            } else {
-                alert("Press Start Game button");
-            }
-        });
-    }
-
-});
-/*startButton.addEventListener('click', startGame);
-submitButtonElement.addEventListener('load', pushQuestions, resetPage);*/
-
-/* This is the start of the game. Once the user clicks on the start game button the questions will appear on the screen */
-
+/* This function will run once the user clicks on the start button*/
 function startGame() {
     console.log('StartGame');
     startButton.classList.add('hidden');
     shuffledQuestions = questions.sort(() => Math.random() - .5);
     currentQuestionIndex = 0;
     questionPanelElement.classList.remove('hidden');
-    pushQuestions();
+    questionCounter = 0;
+    scoreCounter = 0;
+    callQuestions();
 }
 
 /* Once the user has started the game this function will initiate the questions */
-function pushQuestions() {
-    startQuestions(shuffledQuestions[currentQuestionIndex]);
+function callQuestions() {
+    resetScreen;
+    loadQuestions(shuffledQuestions[currentQuestionIndex]);
+}
+
+/*Calls the next question once the next button is pressed*/
+function nextQuestion() {
+    resetScreen;
+    loadQuestions(shuffledQuestions[currentQuestionIndex]);
 }
 
 /* Creates answer buttons in the HTML to house the answer variables in the questions object below*/
@@ -125,17 +114,6 @@ function resetPage(element) {
 
 }
 
-
-
-
-
-
-
-/* Once the answer has been submitted this will load the next question */
-function nextQuestion() {
-
-
-}
 
 /**
  * Gets current correct score from the DOM nad increases it by 1

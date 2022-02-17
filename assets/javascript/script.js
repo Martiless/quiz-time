@@ -23,9 +23,21 @@ let scoreCounter = 0;
 let score = 0;
 let maxQuestions = 10;
 
-console.log(questions)
+// Event Listeners
+startButton.addEventListener("click", startGame);
+restartButton.addEventListener("click", () => {
+    resetScreen()
+    restartGame()
+});
+nextButtonElement.addEventListener("click", () => {
+    currentQuestionIndex++
+    nextQuestion()
+})
+submitButtonElement.addEventListener("click", () => {
+    alert("Thank you for submitting your username. We hope you enjoyed our game. Please press 'Restart Game' to play again 😎")
+})
 
-// 
+
 // Code used in this project is influneced by code used in Code Institutes Love Maths project.
 document.addEventListener("DOMContentLoaded", function () {
     let buttons = document.getElementsByTagName("button");

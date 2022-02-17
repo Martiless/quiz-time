@@ -62,18 +62,19 @@ function nextQuestion() {
 }
 
 /* Creates answer buttons in the HTML to house the answer variables in the questions object below*/
-function startQuestions(questions) {
+function loadQuestions(questions) {
     scorePanelElement.classList.remove('hidden');
+    nextButtonElement.classList.remove('hidden');
+    questionCounter++;
+    questionCounterElement.innerText = questionCounter + '/' + maxQuestions;
     questionsElement.innerText = questions.question;
     questions.answers.forEach(answer => {
-        let newButton = document.createElement('button')
-        newButton.innerText = answer.text
-        newButton.classList.add('answer-btn');
-        if (answer.correct); {
-            newButton.dataset.correct = answer.correct
-        }
-        newButton.addEventListener('click', selectAnswer);
-        answerButtonsElement.appendChild(newButton);
+        const answerButton = document.createElement('button')
+        answerButton.innerText = answer.text;
+        answerButton.classList.add('answer-btn');
+        answerButton.dataset.correct = answer.correct;
+        answerButton.addEventListener('click', checkAnswers);
+        answerButtonsElement.appendChild(answerButton);        
     })
 }
 

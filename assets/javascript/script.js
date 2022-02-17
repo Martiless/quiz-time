@@ -78,24 +78,35 @@ function loadQuestions(questions) {
     })
 }
 
-/* Event listener for the answer selected by the user */
+/* Clears the screen of the previous answer button text */
+function resetScreen() {
+    while (answerButtonsElement.firstChild) {
+        answerButtonsElement.removeChild(answerButtonsElement.firstChild);
+    }
+}
 
-function selectAnswer(e) {
-    console.log("I'm here!")
 
-    const selectedButton = e.target;
-    const correct = selectedButton.dataset.correct;
+/* Checks the answer that has been selected, calls the userScore function & the answerChoice function */
 
-
-    // submitButtonElement.classList.remove('hidden');
-    // questions.answers.forEach(answer => {
-    //          if (answer.correct === true) {
-    //              console.log('Correct');
-    //          } else {
-    //              console.log('Wrong!');
-    //          }
-    //      })
-
+function checkAnswers(e) {
+    selectedAnswer = e.target;
+    const correct = selectedAnswer.dataset.correct;
+    if (correct === "true") {
+        userScore();
+    }
+    Array.from(answerButtonsElement.children).forEach(button => {
+        answerChoice(button, button.dataset.correct);
+    })
+    if (shuffledQuestions.lenght > currentQuestionIndex + 1) {
+        callQuestions;
+    } else {
+        nextButtonElement.classList.add('hidden');
+        questionPanelElement.classList.add('hidden');
+        enterNameElement.classList.remove('hidden');
+        usernameElement.classList.remove('hidden');
+        restartButton.classList.remove('hidden');
+    }
+    answerChoice;
 }
 
 /* May not be needed if I can put it into the selectAnswers function*/

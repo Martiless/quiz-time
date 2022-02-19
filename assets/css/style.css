@@ -67,15 +67,23 @@ body {
     opacity: 1;
 }
 
+#restart-btn:hover {
+    background-color: antiquewhite;
+    color: #381741;
+}
+
+
 /* Questions Area*/
 
 .main-area {
     text-align: center;
-    max-width: 75%;
+    max-width: 55%;
     border: 5px solid black;
     border-radius: 10px;
     margin: auto;
     padding-top: 10px;
+    background: whitesmoke;
+    opacity: 0.95;
 }
 
 #questions {
@@ -96,18 +104,27 @@ body {
     font-size: 23px;
     border-radius: 13px;
     border: 1px;
-    background-color: #E3170A;
+    background-color: #381741;
     box-shadow: 0 8px 16px 0 rgb(0 0 0 / 50%);
     color: antiquewhite;
-    padding: 15px;
-    width: 50%;
-    margin: 25px;
+    padding: 12px;
+    width: 40%;
+    margin: 10px;
     cursor: pointer;
 }
 
 .answer-btn:hover {
     background-color: antiquewhite;
-    color: #E3170A;
+    color: #381741;
+}
+
+.correct-btn {
+    background-color: #03C04A;
+    color: black;
+}
+
+.incorrect-btn{
+    background-color: #E3170A;
 }
 /*
 #btn2 {

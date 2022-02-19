@@ -269,7 +269,11 @@ body {
 
 /*Media Queries*/
 @media screen and (max-width: 1300px) {
-    .logo{}
+    .logo{
+        font-size: 80px;
+        padding-top: 130px;
+        margin: revert;
+    }
 
     #start-btn{}
 
@@ -299,7 +303,11 @@ body {
 
 /*Media quiries for tablet sized screens*/
 @media screen and (max-width: 950px) {
-    .logo{}
+    .logo{
+        font-size: 80px;
+        padding-top: 80px;
+        margin: revert;
+    }
 
     #start-btn{}
 
@@ -331,7 +339,11 @@ body {
 /* media queries for mobile*/
 
 @media screen and (max-width:650px) {
-    .logo{}
+    .logo{
+        font-size: 46px;
+        padding-top: 30px;
+        margin: revert;
+    }
 
     #start-btn{}
 

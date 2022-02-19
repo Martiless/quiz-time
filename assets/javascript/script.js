@@ -41,6 +41,7 @@ submitButtonElement.addEventListener("click", () => {
 function startGame() {
     console.log('StartGame');
     startButton.classList.add('hidden');
+    /** Randomise the questions from the list of questions in questions.js */
     shuffledQuestions = questions.sort(() => Math.random() - .5);
     currentQuestionIndex = 0;
     questionPanelElement.classList.remove('hidden');
@@ -68,6 +69,7 @@ function loadQuestions(questions) {
     questionCounter++;
     questionCounterElement.innerText = questionCounter + '/' + maxQuestions;
     questionsElement.innerText = questions.question;
+    /** Creates and populates teh answer buttons */
     questions.answers.forEach(answer => {
         const answerButton = document.createElement('button')
         answerButton.innerText = answer.text;
@@ -97,6 +99,7 @@ function checkAnswers(e) {
     Array.from(answerButtonsElement.children).forEach(button => {
         answerChoice(button, button.dataset.correct);
     })
+    /** Should a new question be loaded or finish game  */
     if (shuffledQuestions.lenght > currentQuestionIndex + 1) {
         callQuestions;
     } else {
@@ -116,7 +119,7 @@ function userScore() {
 }
 
 /** Resets the user score to 0 when the restart game button is pressed*/
-function resetUserScor() {
+function resetUserScore() {
     score = 0;
     scoreCounterElemet.innerText = 0; 
 }
@@ -139,3 +142,16 @@ function clearColours(element) {
 
 }
 
+/** Restarts the game if a user wishes to plat the game again */
+function restartGame() {
+    resetScreen;
+    usernameElement.classList.add('hidden');
+    enterNameElement.classList.add('hidden');
+    restartButton.classList.add('hidden');
+    shuffledQuestions = questions.sort(() => Math.random() - .5);
+    currentQuestionIndex = 0;
+    questionPanelElement.classList.remove('hidden');
+    questionCounter = 0;
+    resetUserScore();
+    callQuestions();
+}

@@ -218,57 +218,16 @@ body {
     margin: 5px;
 }
 
-
-#submit-btn {
-    font-size: 23px;
-    border-radius: 13px;
-    border: 1px;
-    background-color: #A9e5BB;
-    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 32%);
-    color: #2d1e2f;
-    padding: 15px;
-    margin-top: 30px;
-    cursor: pointer;
-}
-
-#submit-btn:hover {
-    background-color: #2d1e2f;
-    color: #A9e5BB;
-}
-
-
-/* Score area */
-
-
-#score-panel {
-    text-align: center;
-    width: 75%;
-    border: 5px solid black;
-    margin: auto;
-    padding-top: 10px;
-    ;
-}
-
-.score-area {
-    margin: 5px auto;
-    width: 60%;
-    font-size: 1.2rem;
-}
-
-.scores {
-    font-size: x-large;
-    display: inline-block;
-    padding: 25px;
-}
-
-/* Username Area */
+/* Username Area*/
 #username-area {
     text-align: center;
-    width: 75%;
+    max-width: 55%;
     border: 5px solid black;
+    border-radius: 10px;
     margin: auto;
     padding-top: 10px;
-    ;
+    background:whitesmoke;
+    opacity: 0.95;
 }
 
 .congrats-message {
@@ -288,51 +247,21 @@ body {
     padding: inherit;
 }
 
-#username-submit-btn {
-    font-size: 20px;
-    background-color: #E3170A;
+#submit-btn {
+    font-size: 23px;
+    border-radius: 13px;
+    border: 1px;
+    background-color: #A9e5BB;
     box-shadow: 0 8px 16px 0 rgb(0 0 0 / 32%);
-    color: antiquewhite;
-    width: 20%;
-    margin: 15px;
+    color: #2d1e2f;
+    padding: 15px;
+    margin-top: 30px;
     cursor: pointer;
 }
 
-#username-submit-btn:hover {
-    background-color: antiquewhite;
-    color: #E3170A;
-}
-
-/* Leader Board Area */
-#leader-board {
-    text-align: center;
-    width: 75%;
-    border: 5px solid black;
-    margin: auto;
-    padding-top: 10px;
-}
-
-#board-header {
-    font-size: xx-large;
-    text-shadow: 2px 2px 4px #E3170A;
-    padding: 15px;
-}
-
-#container {
-    width: auto;
-    height: auto;
-}
-
-.row {
-    display: inline;
-    border-bottom: 1px solid #381741;
-}
-
-.name {
-    position: relative;
-    display: inline-block;
-    width: 50%;
-    line-height: 45px;
+#submit-btn:hover {
+    background-color: #2d1e2f;
+    color: #A9e5BB;
 }
 
 .hidden {

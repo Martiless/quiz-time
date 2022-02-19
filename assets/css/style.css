@@ -77,7 +77,8 @@ body {
     max-width: 55%;
     border: 2px solid black;
     border-radius: 10px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 10px;
     background: whitesmoke;
     opacity: 0.95;
@@ -222,7 +223,8 @@ body {
     max-width: 55%;
     border: 2px solid black;
     border-radius: 10px;
-    margin: auto;
+    margin-right: auto;
+    margin-left: auto;
     background:whitesmoke;
     opacity: 0.90;
 }
@@ -279,7 +281,10 @@ body {
 
     #reset-btn{}
 
-    .main-area{}
+    .main-area{
+        max-width: 75%;
+        padding: 20px;
+    }
 
     #questions{}
 
@@ -341,7 +346,7 @@ body {
 @media screen and (max-width:650px) {
     .logo{
         font-size: 46px;
-        padding-top: 30px;
+        padding-top: 35px;
         margin: revert;
     }
 
@@ -349,7 +354,9 @@ body {
 
     #reset-btn{}
 
-    .main-area{}
+    .main-area{
+        max-width: 85%;
+    }
 
     #questions{}
 

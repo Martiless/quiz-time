@@ -100,7 +100,7 @@ function checkAnswers(e) {
         answerChoice(button, button.dataset.correct);
     })
     /** Should a new question be loaded or finish game  */
-    if (shuffledQuestions.lenght > currentQuestionIndex + 1) {
+    if (shuffledQuestions.length > currentQuestionIndex + 1) {
         callQuestions;
     } else {
         nextButtonElement.classList.add('hidden');

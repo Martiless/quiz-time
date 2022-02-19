@@ -85,7 +85,7 @@ body {
 
 #questions {
     font-size: xx-large;
-    font-weight: bold;
+    font-weight: 700;
     padding: 25px;
 }
 
@@ -179,15 +179,16 @@ body {
 }
 */
 #next-btn {
-    font-size: 23px;
+    font-size: 22px;
+    font-weight: 700;
     border-radius: 13px;
     border: 1px;
     background-color: #A9e5BB;
     box-shadow: 0 8px 16px 0 rgb(0 0 0 / 32%);
     color: #2d1e2f;
-    padding: 15px;
-    margin-top: 20px;
-    width: 30%;
+    padding: 5px;
+    margin: 9px;
+    width: 27%;
     cursor: pointer;
 }
 
@@ -203,11 +204,11 @@ body {
     justify-content: space-between;
 }
 
-.scores {
+/*.scores {
     font-size: x-large;
     display: inline-block;
     padding: 25px;
-}
+}*/
 
 .counters{
     font-size: xx-large;
@@ -264,4 +265,127 @@ body {
 
 .hidden {
     display: none;
+}
+
+/*Media Queries*/
+@media screen and (max-width: 1300px) {
+    .logo{}
+
+    #start-btn{}
+
+    #reset-btn{}
+
+    .main-area{}
+
+    #questions{}
+
+    .answer-btn{}
+
+    #next-btn, #submit-btn{}
+
+    .score-area{}
+
+    .counters{}
+
+    #username-area{}
+
+    .congrats-message{}
+
+    .enter-name{}
+
+    .username{}
+ 
+}
+
+/*Media quiries for tablet sized screens*/
+@media screen and (max-width: 950px) {
+    .logo{}
+
+    #start-btn{}
+
+    #reset-btn{}
+
+    .main-area{}
+
+    #questions{}
+
+    .answer-btn{}
+
+    #next-btn, #submit-btn{}
+
+    .score-area{}
+
+    .counters{}
+
+    #username-area{}
+
+    .congrats-message{}
+
+    .enter-name{}
+
+    .username{}
+
+   
+}
+
+/* media queries for mobile*/
+
+@media screen and (max-width:650px) {
+    .logo{}
+
+    #start-btn{}
+
+    #reset-btn{}
+
+    .main-area{}
+
+    #questions{}
+
+    .answer-btn{}
+
+    #next-btn, #submit-btn{}
+
+    .score-area{}
+
+    .counters{}
+
+    #username-area{}
+
+    .congrats-message{}
+
+    .enter-name{}
+
+    .username{}
+
+    
+}
+
+/* Media Query for small mobile devices*/
+
+@media screen and (max-width:350px) {
+    .logo{}
+
+    #start-btn{}
+
+    #reset-btn{}
+
+    .main-area{}
+
+    #questions{}
+
+    .answer-btn{}
+
+    #next-btn, #submit-btn{}
+
+    .score-area{}
+
+    .counters{}
+
+    #username-area{}
+
+    .congrats-message{}
+
+    .enter-name{}
+
+    .username{}
 }

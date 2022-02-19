@@ -306,7 +306,7 @@ body {
  
 }
 
-/*Media quiries for tablet sized screens*/
+/*Media queries for tablet sized screens*/
 @media screen and (max-width: 950px) {
     .logo{
         font-size: 80px;
@@ -317,8 +317,6 @@ body {
     #start-btn{}
 
     #reset-btn{}
-
-    .main-area{}
 
     #questions{}
 
@@ -358,9 +356,17 @@ body {
         max-width: 85%;
     }
 
-    #questions{}
+    #questions{
+        font-size: large;
+        padding: inherit;
+    }
 
-    .answer-btn{}
+    .answer-btn{
+        font-size: 16px;
+        border: 1px;
+        width: 30%;
+        margin: 6px;
+    }
 
     #next-btn, #submit-btn{}
 
@@ -379,32 +385,3 @@ body {
     
 }
 
-/* Media Query for small mobile devices*/
-
-@media screen and (max-width:350px) {
-    .logo{}
-
-    #start-btn{}
-
-    #reset-btn{}
-
-    .main-area{}
-
-    #questions{}
-
-    .answer-btn{}
-
-    #next-btn, #submit-btn{}
-
-    .score-area{}
-
-    .counters{}
-
-    #username-area{}
-
-    .congrats-message{}
-
-    .enter-name{}
-
-    .username{}
-}

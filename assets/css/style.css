@@ -3,25 +3,33 @@
 /* General styling to whole page */
 body {
     font-family: Marvel, sans-serif;
-    background-color: #F7B32B;
-
-
-
+    background: url('../images/movie-theatre-return-today-inline3-200414.jpg') center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    background-size: cover; 
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
 }
 
 /* heading area */
 #heading {
     text-align: center;
-    width: 75%;
-    border: 5px solid black;
+    width: 55%;
     margin: auto;
+    padding-top: 15px;
     
 }
-
+/* Quiz page logo */
 .logo {
     font-size: 80px;
     color: #381741;
-    text-shadow: 2px 2px 4px #E3170A;
+    text-shadow: 2px 2px 5px #E3170A;
+    padding-top: 20px;
+    background: whitesmoke;
+    opacity: 0.95;
+    border-radius: 10px;
     }
 
 /* Start button area*/
@@ -30,11 +38,10 @@ body {
     font-size: 50px;
     border-radius: 13px;
     border: 1px;
-    background-color: #E3170A;
+    background-color: #381741;
     box-shadow: 0 8px 16px 0 rgb(0 0 0 / 32%);
     color: antiquewhite;
-    padding: 15px;
-    width: 50%;
+    width: 75%;
     height: 200px;
     margin: auto;
     cursor: pointer;
@@ -42,7 +49,22 @@ body {
 
 #start-btn:hover {
     background-color: antiquewhite;
-    color: #E3170A;
+    color: #381741
+}
+
+/* Restart button*/
+#restart-btn {
+    font-size: 50px;
+    border-radius: 13px;
+    border: 1px;
+    background-color: #381741;
+    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 32%);
+    color: antiquewhite;
+    width: 75%;
+    height: 200px;
+    margin: auto;
+    cursor: pointer;
+    opacity: 1;
 }
 
 /* Questions Area*/

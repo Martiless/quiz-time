@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 100vh;
+    height: 150vh;
 }
 
 /* heading area */
@@ -26,10 +26,7 @@ body {
     color: #381741;
     text-shadow: 2px 2px 5px #E3170A;
     padding-top: 20px;
-    background: whitesmoke;
-    opacity: 0.95;
-    border-radius: 10px;
-    }
+  }
 
 /* Start button area*/
 
@@ -53,17 +50,18 @@ body {
 
 /* Restart button*/
 #restart-btn {
-    font-size: 50px;
+    font-size: 45px;
     border-radius: 13px;
     border: 1px;
     background-color: #381741;
     box-shadow: 0 8px 16px 0 rgb(0 0 0 / 32%);
     color: antiquewhite;
     width: 75%;
-    height: 200px;
+    height: 100px;
     margin: auto;
     cursor: pointer;
     opacity: 1;
+    padding: unset;
 }
 
 #restart-btn:hover {
@@ -77,7 +75,7 @@ body {
 .main-area {
     text-align: center;
     max-width: 55%;
-    border: 5px solid black;
+    border: 2px solid black;
     border-radius: 10px;
     margin: auto;
     padding-top: 10px;
@@ -221,12 +219,11 @@ body {
 #username-area {
     text-align: center;
     max-width: 55%;
-    border: 5px solid black;
+    border: 2px solid black;
     border-radius: 10px;
     margin: auto;
-    padding-top: 10px;
     background:whitesmoke;
-    opacity: 0.95;
+    opacity: 0.90;
 }
 
 .congrats-message {
@@ -247,14 +244,16 @@ body {
 }
 
 #submit-btn {
-    font-size: 23px;
+    font-size: 22px;
+    font-weight: 700;
     border-radius: 13px;
     border: 1px;
     background-color: #A9e5BB;
     box-shadow: 0 8px 16px 0 rgb(0 0 0 / 32%);
     color: #2d1e2f;
-    padding: 15px;
-    margin-top: 30px;
+    padding: 5px;
+    margin: 9px;
+    width: 27%;
     cursor: pointer;
 }
 

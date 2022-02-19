@@ -52,13 +52,13 @@ function startGame() {
 
 /** Once the user has started the game this function will initiate the questions */
 function callQuestions() {
-    resetScreen;
+    resetScreen();
     loadQuestions(shuffledQuestions[currentQuestionIndex]);
 }
 
 /**Calls the next question once the next button is pressed*/
 function nextQuestion() {
-    resetScreen;
+    resetScreen();
     loadQuestions(shuffledQuestions[currentQuestionIndex]);
 }
 

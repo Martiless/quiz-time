@@ -126,7 +126,7 @@ function resetUserScore() {
 
 
 /** Changes the colour of the answer buttons to relfex the users correct or incorrect answer*/
-function checkAnswers(element, correct) {
+function answerChoice(element, correct) {
    clearColours(element);
    if (correct === "true") {
        element.classList.add('correct-btn');
@@ -137,10 +137,10 @@ function checkAnswers(element, correct) {
 
 /** Resets the colours of the buttons to the default colours when a new questions is loaded */
 function clearColours(element) {
-    element.classList.remove('correct-btn')
-    element.classList.remove('incorrect-btn')
-
+    element.classList.remove('correct-btn');
+    element.classList.remove('incorrect-btn');
 }
+
 
 /** Restarts the game if a user wishes to plat the game again */
 function restartGame() {

@@ -5,8 +5,7 @@ body {
     font-family: Marvel, sans-serif;
     background: url('../images/movie-theatre-return-today-inline3-200414.jpg') center center;
     background-repeat: no-repeat;
-    /*background-attachment: fixed;*/
-    background-size: cover; 
+    background-size: cover;
     justify-content: center;
     align-items: center;
     width: 100vw;

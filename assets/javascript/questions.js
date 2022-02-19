@@ -40,7 +40,7 @@ const questions = [{
         ]
     },
 
-    /*{
+    {
         question: "In 'Master of None' where does Dev move to after being dropped from a big sci-fi movie?",
         answers: ["France", "Spain", "Greece", "Italy"],
         correctAnswer: "Italy"
@@ -97,5 +97,5 @@ const questions = [{
         answers: ["Bettle Juice", "Nightmare Before Christmas", "Planet of the Apes", "Frankenweenie"],
         correctAnswer: "Nightmare Before Christmas"
 
-    }*/
+    }
 ]

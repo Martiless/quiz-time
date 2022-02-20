@@ -235,15 +235,16 @@ body {
     font-size: xx-large;
     text-shadow: 2px 2px 4px #E3170A;
     padding: 15px;
+    margin-bottom: 10px;
 }
 
-.enter-name {
+#enter-name {
     font-size: xx-large;
     padding: inherit;
 
 }
 
-.username {
+#username {
     font-size: x-large;
     padding: inherit;
 }
@@ -279,10 +280,6 @@ body {
         margin: revert;
     }
 
-    #start-btn {}
-
-    #restart-btn {}
-
     .main-area {
         max-width: 75%;
         padding: 18px;
@@ -300,11 +297,18 @@ body {
         margin-top: 15px;
     }
 
-    #username-area {}
+    #finish-game {
+        
+    }
 
-    .enter-name {}
+    #enter-name {}
 
-    .username {}
+    #username {}
+
+    #user{
+        font-size: 30px;
+        margin-right: 5px;
+    }
 
 }
 
@@ -326,13 +330,25 @@ body {
     }
 
 
-    #username-area {}
+    #username-area {
+        max-width: 88%;
+        margin: auto;
+    }
 
-    .enter-name {}
+    #finish-game {
+        font-size: x-large;
+        margin: 10px;
+    }
+    
+    #username {
+        font-size: large;
+        padding: inherit;
+    }
 
-    .username {}
-
-
+    #user{
+        font-size: 23px;
+        margin-right: 5px;
+    }
 }
 
 /* media queries for mobile*/
@@ -386,17 +402,25 @@ body {
         margin: unset;
     }
 
-    #username-area {}
-
     .congrats-message {
         font-size: 25px;
 
     }
 
-    .enter-name {}
+    #finish-game {
 
-    .username {}
+    }
 
+    #enter-name {}
+
+    #username {
+        font-size: x-large;
+    border-radius: 9px;
+    }
+
+    #user{
+
+    }
 
 }
 
@@ -452,15 +476,19 @@ body {
         margin: unset;
     }
 
-    #username-area {}
-
     .congrats-message {
         font-size: 20px;
     }
 
-    .enter-name {}
+    #finish-game {
+        
+    }
 
-    .username {}
+    #enter-name {}
+
+    #username {}
+
+    #user{}
 
 
 }

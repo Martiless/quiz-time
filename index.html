@@ -51,14 +51,14 @@
     <section id="username-area" class="hidden">
         <div>
             <p class="congrats-message">CONGRATULATIONS! </p>
-            You have completed our quiz. Submit your username below 👇 or hit the Restart button to play again 🎮
+           <p id="finish-game"> You have completed our quiz. Submit your username below 👇 or hit the Restart button to play again 🎮</p>
         </div>
         <div id="enter-name" class="hidden">
         </div>
         <div class="username">
             <form id="add-username" method="POST" action=""></form>
             <form method="GET" target="_blank" rel="noopner">
-                <label for="username">Username</label>
+                <label for="username" id="user">Username</label>
                 <input type="text" id="username" name="username" class="input" placeholder="UserName" required><br>
         </div>
         <input type="submit" id="submit-btn">

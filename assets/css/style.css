@@ -18,15 +18,16 @@ body {
     width: 55%;
     margin: auto;
     padding-top: 15px;
-    
+
 }
+
 /* Quiz page logo */
 .logo {
     font-size: 80px;
     color: #381741;
     text-shadow: 2px 2px 5px #E3170A;
     padding-top: 20px;
-  }
+}
 
 /* Start button area*/
 
@@ -121,9 +122,10 @@ body {
     color: black;
 }
 
-.incorrect-btn{
+.incorrect-btn {
     background-color: #E3170A;
 }
+
 /*
 #btn2 {
     font-size: 23px;
@@ -211,7 +213,7 @@ body {
     padding: 25px;
 }*/
 
-.counters{
+.counters {
     font-size: xx-large;
     padding: 5px 25px 5px 25px;
     margin: 5px;
@@ -225,7 +227,7 @@ body {
     border-radius: 10px;
     margin-right: auto;
     margin-left: auto;
-    background:whitesmoke;
+    background: whitesmoke;
     opacity: 0.90;
 }
 
@@ -271,120 +273,175 @@ body {
 
 /*Media Queries*/
 @media screen and (max-width: 1300px) {
-    .logo{
+    .logo {
         font-size: 80px;
         padding-top: 130px;
         margin: revert;
     }
 
-    #start-btn{}
+    #start-btn {}
 
-    #reset-btn{}
+    #reset-btn {}
 
-    .main-area{
+    .main-area {
         max-width: 75%;
         padding: 18px;
         margin-left: 50px;
     }
 
-    .answer-btn{
+    .answer-btn {
         font-size: 16px;
         border: 1px;
         width: 30%;
-        margin: 6px;}
+        margin: 6px;
+    }
 
-    #next-btn, #submit-btn{}
+    #next-btn,
+    #submit-btn {}
 
-    #username-area{}
+    #username-area {}
 
-    .congrats-message{}
+    .congrats-message {}
 
-    .enter-name{}
+    .enter-name {}
 
-    .username{}
- 
+    .username {}
+
 }
 
 /*Media queries for tablet sized screens*/
 @media screen and (max-width: 950px) {
-    .logo{
+    .logo {
         font-size: 80px;
         padding-top: 80px;
         margin: revert;
     }
 
-    #reset-btn{}
+    #reset-btn {}
 
-    .answer-btn{
+    .answer-btn {
         font-size: 16px;
         border: 1px;
         width: 30%;
         margin: 6px;
     }
 
-    #next-btn, #submit-btn{}
+    #next-btn,
+    #submit-btn {}
 
 
-    #username-area{}
+    #username-area {}
 
-    .congrats-message{}
+    .congrats-message {}
 
-    .enter-name{}
+    .enter-name {}
 
-    .username{}
+    .username {}
 
-   
+
 }
 
 /* media queries for mobile*/
 
 @media screen and (max-width:650px) {
-    .logo{
-        font-size: 46px;
+    .logo {
+        font-size: 40px;
         padding-top: 35px;
         margin: revert;
     }
 
-    #start-btn{
+    #start-btn {
         font-size: xx-large;
         width: 75%;
     }
 
-    #reset-btn{}
+    #reset-btn {}
 
-    .main-area{
+    .main-area {
         max-width: 65%;
     }
 
-    #questions{
+    #questions {
         font-size: large;
         padding: inherit;
     }
 
-    .answer-btn{
+    .answer-btn {
         font-size: 16px;
         border: 1px;
         width: 30%;
         margin: 6px;
     }
 
-    #next-btn, #submit-btn{}
+    #next-btn,
+    #submit-btn {}
 
 
-    .counters{
+    .counters {
         font-size: inherit;
         padding: inherit;
         margin: unset;
     }
 
-    #username-area{}
+    #username-area {}
 
-    .congrats-message{}
+    .congrats-message {}
 
-    .enter-name{}
+    .enter-name {}
 
-    .username{}
+    .username {}
 
-    
+
 }
 
+/* Media queries for small devices*/
+
+@media screen and (max-width:350px) {
+    .logo {
+        font-size: 37px;
+        padding-top: 40px;
+        margin: revert;
+    }
+
+    #start-btn {
+        font-size: xx-large;
+        width: 75%;
+    }
+
+    #reset-btn {}
+
+    .main-area {
+        max-width: 57%;
+    }
+
+    #questions {
+        font-size: medium;
+        padding: inherit;
+    }
+
+    .answer-btn {
+        font-size: 11px;
+        border: 1px;
+        width: 50%;
+        margin: 6px;
+    }
+
+    #next-btn, #submit-btn {}
+
+
+    .counters {
+        font-size: inherit;
+        padding: inherit;
+        margin: unset;
+    }
+
+    #username-area {}
+
+    .congrats-message {}
+
+    .enter-name {}
+
+    .username {}
+
+
+}

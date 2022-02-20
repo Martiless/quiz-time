@@ -281,27 +281,26 @@ body {
 
     #start-btn {}
 
-    #reset-btn {}
+    #restart-btn {}
 
     .main-area {
         max-width: 75%;
         padding: 18px;
-        margin-left: 50px;
     }
 
     .answer-btn {
-        font-size: 16px;
+        font-size: 21px;
         border: 1px;
-        width: 30%;
+        width: 35%;
         margin: 6px;
     }
 
     #next-btn,
-    #submit-btn {}
+    #submit-btn {
+        margin-top: 15px;
+    }
 
     #username-area {}
-
-    .congrats-message {}
 
     .enter-name {}
 
@@ -317,22 +316,17 @@ body {
         margin: revert;
     }
 
-    #reset-btn {}
+    #restart-btn {}
 
     .answer-btn {
         font-size: 16px;
         border: 1px;
-        width: 30%;
+        width: 32%;
         margin: 6px;
     }
 
-    #next-btn,
-    #submit-btn {}
-
 
     #username-area {}
-
-    .congrats-message {}
 
     .enter-name {}
 
@@ -355,7 +349,11 @@ body {
         width: 75%;
     }
 
-    #reset-btn {}
+    #restart-btn {
+        font-size: 25px;
+        height: 50px;
+        width: 80%;
+    }
 
     .main-area {
         max-width: 65%;
@@ -367,14 +365,19 @@ body {
     }
 
     .answer-btn {
-        font-size: 16px;
+        font-size: 13px;
         border: 1px;
-        width: 30%;
+        width: 40%;
         margin: 6px;
     }
 
     #next-btn,
-    #submit-btn {}
+    #submit-btn {
+        font-size: 17px;
+        width: 34%;
+        font-weight: 400;
+        padding: unset;
+    }
 
 
     .counters {
@@ -385,7 +388,10 @@ body {
 
     #username-area {}
 
-    .congrats-message {}
+    .congrats-message {
+        font-size: 25px;
+
+    }
 
     .enter-name {}
 
@@ -396,7 +402,7 @@ body {
 
 /* Media queries for small devices*/
 
-@media screen and (max-width:350px) {
+@media screen and (max-width:400px) {
     .logo {
         font-size: 37px;
         padding-top: 40px;
@@ -406,9 +412,14 @@ body {
     #start-btn {
         font-size: xx-large;
         width: 75%;
+        margin-bottom: 5px;
     }
 
-    #reset-btn {}
+    #restart-btn {
+        font-size: 17px;
+        height: 45px;
+        width: 80%;
+    }
 
     .main-area {
         max-width: 57%;
@@ -426,7 +437,13 @@ body {
         margin: 6px;
     }
 
-    #next-btn, #submit-btn {}
+    #next-btn,
+    #submit-btn {
+        font-size: 14px;
+        width: 34%;
+        font-weight: 400;
+        padding: unset;
+    }
 
 
     .counters {
@@ -437,7 +454,9 @@ body {
 
     #username-area {}
 
-    .congrats-message {}
+    .congrats-message {
+        font-size: 20px;
+    }
 
     .enter-name {}
 

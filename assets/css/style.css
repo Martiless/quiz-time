@@ -111,10 +111,10 @@ body {
     cursor: pointer;
 }
 
-.answer-btn:hover {
+/*.answer-btn:hover {
     background-color: antiquewhite;
     color: #381741;
-}
+}*/
 
 .correct-btn {
     background-color: #03C04A;
@@ -283,18 +283,17 @@ body {
 
     .main-area{
         max-width: 75%;
-        padding: 20px;
+        padding: 18px;
+        margin-left: 50px;
     }
 
-    #questions{}
-
-    .answer-btn{}
+    .answer-btn{
+        font-size: 16px;
+        border: 1px;
+        width: 30%;
+        margin: 6px;}
 
     #next-btn, #submit-btn{}
-
-    .score-area{}
-
-    .counters{}
 
     #username-area{}
 
@@ -314,19 +313,17 @@ body {
         margin: revert;
     }
 
-    #start-btn{}
-
     #reset-btn{}
 
-    #questions{}
-
-    .answer-btn{}
+    .answer-btn{
+        font-size: 16px;
+        border: 1px;
+        width: 30%;
+        margin: 6px;
+    }
 
     #next-btn, #submit-btn{}
 
-    .score-area{}
-
-    .counters{}
 
     #username-area{}
 
@@ -348,12 +345,15 @@ body {
         margin: revert;
     }
 
-    #start-btn{}
+    #start-btn{
+        font-size: xx-large;
+        width: 75%;
+    }
 
     #reset-btn{}
 
     .main-area{
-        max-width: 85%;
+        max-width: 65%;
     }
 
     #questions{
@@ -370,9 +370,12 @@ body {
 
     #next-btn, #submit-btn{}
 
-    .score-area{}
 
-    .counters{}
+    .counters{
+        font-size: inherit;
+        padding: inherit;
+        margin: unset;
+    }
 
     #username-area{}
 

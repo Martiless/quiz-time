@@ -112,7 +112,7 @@ function resetScreen() {
 function checkAnswers(e) {
     selectedAnswer = e.target;
     const correct = selectedAnswer.dataset.correct;
-    if (correct) {
+    if (correct === "true") {
         userScore();
     }
     Array.from(answerButtonsElement.children).forEach(button => {
@@ -157,7 +157,7 @@ function resetUserScore() {
  */
 function answerChoice(element, correct) {
     clearColours(element);
-    if (correct) {
+    if (correct === "true") {
         element.classList.add('correct-btn');
     } else {
         element.classList.add('incorrect-btn');

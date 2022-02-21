@@ -1,3 +1,5 @@
+//list of questions available for the quiz 
+
 const questions = [{
     question: "Who has selective mutism in The Big Bang Theory?",
     answers: [{

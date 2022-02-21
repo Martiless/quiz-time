@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="An online quiz to test your TV and Movie knowledge">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>It's Quiz Time</title>
 </head>
 
 <body>
     <section id="heading">
-          <h1 id = "logo" class="logo">
+        <h1 id="logo" class="logo">
             It's Quiz Time
         </h1>
     </section>
@@ -19,12 +20,7 @@
     <section class="main-area">
         <div id="question-panel" class="hidden">
             <div id="questions">Question Area</div>
-            <div id="answer-buttons">
-                <!--<button class="answer-btn">Holding Text 1</button>
-                <button class="answer-btn">Holding Text 2</button>
-                <button class="answer-btn">Holding Text 3</button>
-                <button class="answer-btn">Holding Text 4</button>-->
-            </div>
+            <div id="answer-buttons"></div>
         </div>
         <div id="buttons">
             <button id="start-btn" class="start-btn btn" data-type="start-button">Let's start the game <i
@@ -32,17 +28,17 @@
             <button id="next-btn" class="next-btn hidden">Next</button>
             <button id="restart-btn" class="hidden">Restart Game <i class="fas fa-sync-alt"></i></button>
         </div>
-     <div id="score-panel" class="hidden">
-        <div class="score-area">
-            <div>
-                <p class="counters"> Questions</p>
-                <h3 id="question-counter" class="counters"></h3>
+        <div id="score-panel" class="hidden">
+            <div class="score-area">
+                <div>
+                    <p class="counters"> Questions</p>
+                    <h3 id="question-counter" class="counters"></h3>
+                </div>
+                <div>
+                    <p class="counters"> Score:</p>
+                    <h3 id="score-counter" class="counters">0</h3>
+                </div>
             </div>
-            <div>
-                <p class="counters"> Score:</p>
-                <h3 id="score-counter" class="counters">0</h3>
-            </div>
-        </div>
         </div>
     </section>
 
@@ -51,7 +47,8 @@
     <section id="username-area" class="hidden">
         <div>
             <p class="congrats-message">CONGRATULATIONS! </p>
-           <p id="finish-game"> You have completed our quiz. Submit your username below 👇 or hit the Restart button to play again 🎮</p>
+            <p id="finish-game"> You have completed our quiz. Submit your username below 👇 or hit the Restart button to
+                play again 🎮</p>
         </div>
         <div id="enter-name" class="hidden">
         </div>
@@ -64,7 +61,7 @@
         <input type="submit" id="submit-btn">
     </section>
 
-    
+
     <script src="assets/javascript/questions.js"></script>
     <script src="assets/javascript/script.js"></script>
     <!-- Script imported from font Awesome-->

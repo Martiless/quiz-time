@@ -9,7 +9,6 @@ const enterNameElement = document.getElementById('enter-name');
 const submitButtonElement = document.getElementById('submit-btn');
 const answerButtonsElement = document.getElementById('answer-buttons');
 const scorePanelElement = document.getElementById('score-panel');
-const userScoreElement = document.getElementById('user-score');
 const scoreCounterElemet = document.getElementById('score-counter');
 const questionCounterElement = document.getElementById('question-counter');
 
@@ -30,12 +29,12 @@ restartButton.addEventListener("click", () => {
     restartGame();
 });
 nextButtonElement.addEventListener("click", () => {
-    currentQuestionIndex++
+    currentQuestionIndex++;
     nextQuestion();
-})
+});
 submitButtonElement.addEventListener("click", () => {
-    alert("Thank you for submitting your username. We hope you enjoyed our game. Please press 'Restart Game' to play again 😎")
-})
+    alert("Thank you for submitting your username. We hope you enjoyed our game. Please press 'Restart Game' to play again 😎");
+});
 
 /** This function will run once the user clicks on the start button*/
 function startGame() {
@@ -71,13 +70,13 @@ function loadQuestions(questions) {
     questionsElement.innerText = questions.question;
     /** Creates and populates teh answer buttons */
     questions.answers.forEach(answer => {
-        const answerButton = document.createElement('button')
+        const answerButton = document.createElement('button');
         answerButton.innerText = answer.text;
         answerButton.classList.add('answer-btn');
         answerButton.dataset.correct = answer.correct;
         answerButton.addEventListener('click', checkAnswers);
         answerButtonsElement.appendChild(answerButton);        
-    })
+    });
 }
 
 /** Clears the screen of the previous answer button text */
@@ -98,7 +97,7 @@ function checkAnswers(e) {
     }
     Array.from(answerButtonsElement.children).forEach(button => {
         answerChoice(button, button.dataset.correct);
-    })
+    });
     /** Should a new question be loaded or finish game  */
     if (shuffledQuestions.length > currentQuestionIndex + 1) {
         callQuestions;

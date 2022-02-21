@@ -105,7 +105,7 @@ body {
     border: 1px;
     background-color: #381741;
     box-shadow: 0 8px 16px 0 rgb(0 0 0 / 50%);
-    color: antiquewhite;
+    color: #faebd7;
     padding: 12px;
     width: 40%;
     margin: 10px;
@@ -118,12 +118,13 @@ body {
 }*/
 
 .correct-btn {
-    background-color: #03C04A;
+    background-color: #07FF66;
     color: black;
 }
 
 .incorrect-btn {
-    background-color: #E3170A;
+    background-color: #AE0D01;
+    color: #FFFFFF;
 }
 
 /*

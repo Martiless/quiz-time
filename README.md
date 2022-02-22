@@ -33,6 +33,7 @@ It was designed to allow users to take 5 minutes out of their day to unwind and 
  1. [Testing](#Testing)
  1. [User Stories Met](#User-Stories-Met)
  1. [Bugs](#Bugs)
+ 1. [Unfixed Bugs](#Unfixed-bugs)
  1. [Technologies Used](#Technologies-Used)
  1. [Validation](#Validation)
  1. [Accessibility](#Accessibility)
@@ -161,19 +162,19 @@ There are several features on this site to help users get the most out of their 
 
 ### Home Page:
 When a user comes to the site the first thing they will see is a large button with the text "Let's start the game" Once the users clicks on this button the questions will begin to load.
-[Home Page](documents/images/landing_page.PNG)
+![Home Page](documents/images/landing_page.PNG)
 
 ### Questions:
 Once the game has started a total of 10 questions will be asked. The user will get a choice of 4 answers and can keep track of both the number of questions and their score at the bottom of the screen.
-[Questions and Scoring area](documents/images/questions_score.PNG)
+![Questions and Scoring area](documents/images/questions_score.PNG)
 
 ### Answered Question:
 When the user picks an answer they will receive instant feedback as to it their answer is correct or not. This will happen in the form of the answer buttons changing color and the score tracker incrementing if the answser selected is correct.
-[Answered Questions](documents/images/question_answered.PNG)
+![Answered Questions](documents/images/question_answered.PNG)
 
 ### Restart Game:
 After all 10 questions have been asked, the user has the option to enter a username and restart or just simply restart the game without providing a username.
-[Restart Game](documents/images/restart_username.PNG)
+![Restart Game](documents/images/restart_username.PNG)
 
 ## Future Features:
 * Leader Board: Initally I wanted a leaderboard to pop up at the end of the game when the user entered a username to show the top ten scorers of the game. This table would have been populated by data that had been stored in a JavaScript file. However, with time restictions, it was decided that this element of the game, for now, would not be included.
@@ -205,7 +206,7 @@ Testing information can be viewed [here](documents/TESTING.md "Link to testing i
 1. The alter that comes up when a user submits a username was not appearing, but was when you reload the page.
       1. When originally creating the event listener for the submit button I had incorrectly written the inner function without stating that it was a function, i.e I wrote the event followed by a string without telling the code what to do with the string. After spending time looking at the code and trying to figure out what was going wrong, I took some time away from the code and came back with fresh eyes at which point I had noticed my error.
 
-### Unfixed Bugs:
+## Unfixed Bugs:
 1. The next button will continue to increase the questions if you do not answer a question but keep clicking the next button
       1. Due to time restrants I was unable to resolve this bug.
 
@@ -303,16 +304,22 @@ To deploy this page to GitHub Pages from its GitHub repository, the following st
 1. Everyone on Slack who helped me out. Especially liz conway_5P for all her help and support for this and the previous project.
 
 
-### Content:
+### Sources:
 
-1. 
+1. Images used in this project were downloaded from [Pexel.com](https://www.pexels.com/)
+1. Special characters were added to the code from [FontAwesome.com](https://fontawesome.com/)
+1. Fonts used during this project were added to the code using [Google Fonts](https://fonts.google.com/)
+1. The Favicon for this project was generated using [Favicon.io](https://favicon.io/)
 
-### Media:
-
-1. 
 
 ### Code:
 
-1. 
+1. The initial code from this project was based on the Code Institutes Love Maths project.
+1. Code on building a multiple choice quiz app was inspired by the following
+      1. “Build a quiz app” by James Q Quick, videos available [here](https://www.youtube.com/watch?v=u98ROZjBWy8&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx)
+      1. “Create a Multiple Choice Quiz App Using JavaScript” by Code Explained, video available [here](https://www.youtube.com/watch?v=49pYIMygIcU)
+      1. “Build a quiz with JavaScript” by Web Dev Simplified, video available [here](https://www.youtube.com/watch?v=riDzcEQbX6k)
+1. I used various coder forums at times when I had difficulty with aspects of the code. The use of sites such as [W3 Schools](https://www.w3schools.com/) and [Stack Overflow](https://stackoverflow.com/) was hugely helpful
+
 *** 
 [Back to top](#Quiz-Time) 

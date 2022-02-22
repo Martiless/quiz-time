@@ -111,11 +111,6 @@ body {
     cursor: pointer;
 }
 
-.answer-btn:hover {
-    background-color: antiquewhite;
-    color: #381741;
-}
-
 .correct-btn {
     background-color: #07FF66;
     color: black;
@@ -166,6 +161,7 @@ body {
     border-radius: 10px;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 15px;
     background: whitesmoke;
     opacity: 0.90;
 }
@@ -271,7 +267,7 @@ body {
 
     #username-area {
         max-width: 88%;
-        margin: auto;
+
     }
 
     #username {

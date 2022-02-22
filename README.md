@@ -139,14 +139,15 @@ Following on from the color wheel, I decided to use a purple color for the butto
 
 
 ### Font:
+The font pairing for this website was Marvel which I imported from [Google Fonts](https://fonts.google.com/). I used a backup font family of Sans-Serif in case there were any issues with the imported fonts
 
  
 
-### Images:
+### Imagery:
 
 The imagery on this site was sourced from [Pexel](https://www.pexels.com/)
 
-All these images were uploaded to the site initially and were placed on the gallery page. After working with images from Pexel on other projects, it was known that these images are quite large and take a lot of time to load. For this reason before uploading the images were compressed to suit the websites needs.
+I wanted the user to instantly know that they were on a site that had a movie/TV show theme to it. For this reason I decided to use a cinema screen as the backgound image for the quiz. 
 
 ***
 [Back to top](#Quiz-Time)  

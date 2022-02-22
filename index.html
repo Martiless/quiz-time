@@ -38,7 +38,7 @@
             <div class="score-area">
                 <div>
                     <p class="counters"> Questions</p>
-                    <h3 id="question-counter" class="counters"></h3>
+                    <p id="question-counter" class="counters"></p>
                 </div>
                 <div>
                     <p class="counters"> Score:</p>
@@ -52,7 +52,7 @@
     <!-- End of game panel that will appear when the user finsih the game -->
     <section id="username-area" class="hidden">
         <div>
-            <p class="congrats-message">CONGRATULATIONS! </p>
+            <h2 class="congrats-message">CONGRATULATIONS! </h2>
             <p id="finish-game"> You have completed our quiz. Submit your username below 👇 or hit the Restart button to
                 play again 🎮</p>
         </div>
@@ -60,10 +60,10 @@
         </div>
         <!-- Form for a user to enter a Username  -->
         <div class="username">
-            <form id="add-username" method="POST" action=""></form>
+            <form id="add-username" method="POST"></form>
             <form method="GET" target="_blank" rel="noopner">
                 <label for="username" id="user">Username</label>
-                <input type="text" id="username" name="username" class="input" placeholder="UserName" required><br>
+                <input type="text" id="username" name="username" class="input" placeholder="UserName" required></form>
         </div>
         <input type="submit" id="submit-btn">
     </section>

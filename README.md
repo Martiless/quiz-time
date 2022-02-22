@@ -5,7 +5,7 @@ This website has been created as the second Milestone project for Code Institute
 This website is a fun and easy to play Movies & TV Shows quiz game.
 It was designed to allow users to take 5 minutes out of their day to unwind and have a bit of fun. 
 
-### View the live website [here]()
+### View the live website [here](https://martiless.github.io/quiz-time/)
 ***
 
 ![Am I Responsive](assets/readme-images/am-i-responsive.png)
@@ -125,15 +125,16 @@ The information above was then used to create a structure for the website. Below
 ### Color: 
 To create a visually appealing website but also a website that was easy for people to read I used several different sites to test color contrast. I wanted to make sure the color scheme was not only eye-catching but also that it passed the LightHouse Accessibility test. 
 
-Initially, I looked at what colors work best with the 'x' color I had chosen as my main color. I did this by using a color wheel.  
-![Color Wheel](assets/readme-images/Color-ombinations-Cheat-Sheet.png)
+Initially, I looked at what colors work best with the color I had chosen for the buttons. I did this by using a color wheel.  
+![Color Wheel](documents/Color_wheel.jpg)
 
 
-Following on from the color wheel, an orange was decided upon to contrast the purple. To make sure text could be seen without issue on my chosen colors I used [Coolors](https://coolors.co/) color contrast checker.
+Following on from the color wheel, I decided to use a purple color for the buttons with a cream color as the color when a user hoover over any of the buttons. For the correct and incorrect answer color change I went with your standard red and green. I ran all these color decisions through a color contrast checker to make sure that they would be easy to read for any user. 
 
 
-![Color Checker 1](assets/readme-images/text-area-contrast.png)
-![Color Checker 2](assets/readme-images/button-color-check.png)
+![Color Checker 1](documents/answer_button_contrast.PNG)
+![Color Checker 2](documents/correct_answer_contrast.PNG)
+![Color Checker 3](documents/incorrect_answer_contrast.PNG)
 
 
 

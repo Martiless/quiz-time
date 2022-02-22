@@ -26,14 +26,17 @@ let maxQuestions = 10;
 
 // Event Listeners
 startButton.addEventListener("click", startGame);
+
 restartButton.addEventListener("click", () => {
     resetScreen();
     restartGame();
 });
+
 nextButtonElement.addEventListener("click", () => {
     currentQuestionIndex++;
     nextQuestion();
 });
+
 submitButtonElement.addEventListener("click", () => {
     alert("Thank you for submitting your username. We hope you enjoyed our game. Please press 'Restart Game' to play again 😎");
 });
@@ -106,7 +109,7 @@ function resetScreen() {
 
 /** 
  * Checks the answer that has been selected, calls the userScore function & the answerChoice function
- * @param e is taking in the event listener from the loadQuestion function
+ * @param pulling in the event from the loadQuestion function
  */
 
 function checkAnswers(e) {

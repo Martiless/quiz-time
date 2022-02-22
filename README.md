@@ -254,19 +254,12 @@ For the purpose of this project, the following technologies were used.
 
 ## Validation:
 
-See screenshot to W3C validator and Jigsaw CSS validator [here](documents/VALIDATION.md "Link to validation screenshots")
+To few all the validation results, please click [Here](documents/VALIDATION.md)
 
-### **Index.html:**
-No errors found. 
+* The final HTML was ran through W3C validator with no issues 
+* The final CSS was ran through (Jigsaw) validator and has no errors
+* Both script.js and questions.js were run through JSHint, with a small number of warnings but no errors.
 
-### **Style.css:**
-No errors found
-
-### **script.js:**
-No errors found 
-
-### **questions.js:**
-No errors found 
 
 ***
 [Back to top](#Quiz-Time)

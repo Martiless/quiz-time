@@ -14,7 +14,7 @@ It was designed to allow users to take 5 minutes out of their day to unwind and 
 
 ![Am I Responsive 2](documents/images/Am_I_Responsive_2.PNG)
 </details>
-***
+
 
 ## Table of content: 
  1. [Site Goals](#Site-Goals)

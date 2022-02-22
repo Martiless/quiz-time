@@ -221,10 +221,11 @@ It was also tested on Android and iOS devices.
       1. This was something that I found very difficult as the score was increasing when the user clicked on any button. After a lot of time trying to figure this out, I put my issue up on Slack and asked the community of students to help me. It turned out that I had accidentally used the userScore function somewhere else that was overwriting the code I wanted it to use. Once I removed this line of code that was not needed the score tracker worked correctly. 
 1. The alter that comes up when a user submits a username was not appearing but was when you reload the page.
       1. When originally creating the event listener for the submit button I had incorrectly written the inner function without stating that it was a function, i.e I wrote the event followed by a string without telling the code what to do with the string. After spending time looking at the code and trying to figure out what was going wrong, I took some time away from the code and came back with fresh eyes at which point I had noticed my error.
-
-## Unfixed Bugs:
-1. The next button will continue to increase the questions if you do not answer a question but keep clicking the next button
-      1. Due to time restraints I was unable to resolve this bug.
+1. Next button could be clicked indefinitely if a user had not selected an answer. 
+      1. This was a major issue for me as I tried to solve this bug. I could not figure out what was going wrong. I tried on a number of occasions to add diffenent elements to the event listener, as well as create a new function to try and solve the his. 
+      1. I had gone onto a number of forums where I say people talking about jQueries, as I did not have a full understanding as how jQueries are used and I did not feel like I had the time to learn it to the level I would have liked for this project, I decided against going down this avenue. 
+      1. I then decided to search on slack to see if anyone else had a similar issue and the advice I found was to simply hide the next button between questions, only allowing it to appear once an answer was selected. 
+      1. I feel like this has just masked the issue as a pose to fixing it, however, I plan on doing more research on how to solve this issue using jQuery after this project.
 
 
 ***

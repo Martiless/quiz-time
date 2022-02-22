@@ -297,6 +297,12 @@ To deploy this page to GitHub Pages from its GitHub repository, the following st
 ***
 ## Credits:
 
+### Acknowledgements:
+
+1. I would like to start by thanking Brian O’Hare for being my mentor for this project. 
+1. Everyone on Slack who helped me out. Especially liz conway_5P for all her help and support for this and the previous project.
+
+
 ### Content:
 
 1. 

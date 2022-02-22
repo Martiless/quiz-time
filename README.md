@@ -2,7 +2,7 @@
 
 This website has been created as the second Milestone project for Code Institute's Full Stack Software Development Diploma. It was built using HTML, CSS and JavaScript. GitPod was used for writing the code for this website, as well as committing and pushing to GitHub. GitHub was then used to store the project after it had been pushed from GitPod. Once all the code had been written, GitPages was then used to deploy the website. 
 
-This website is a fun and easy to play Movies & TV Shows quiz game.
+This website is a fun and easy Movies & TV Shows quiz game.
 It was designed to allow users to take 5 minutes out of their day to unwind and have a bit of fun. 
 
 ### View the live website [here](https://martiless.github.io/quiz-time/)
@@ -28,6 +28,7 @@ It was designed to allow users to take 5 minutes out of their day to unwind and 
       1. [Home page](#Home-page)
       1. [Questions](#Questions)
       1. [Score](#Score)
+1. [Futer Features](#Future-Features)
       1. [Leader Board](#Leader-Board)
  1. [Testing](#Testing)
  1. [User Stories Met](#User-Stories-Met)
@@ -48,19 +49,19 @@ It was designed to allow users to take 5 minutes out of their day to unwind and 
 
 The goals for this site are as follows:
 * To provide users with a fun interactive game.
-* To test the users knowledge of popular Movies and TV Shows.
+* To test the user's knowledge of popular Movies and TV Shows.
 
 ## UX:
 
 ### User stories:
 #### New User:  
 * As a new user, I am looking to find play an online game that tests my knowledge of popular Movies and TV Shows.  
-* As a new user, I would like to keep trace of my score as I progress through the quiz.  
-* As a new user, I would like to get live feedback of my answers.   
+* As a new user, I would like to keep track of my score as I progress through the quiz.  
+* As a new user, I would like to get live feedback on my answers.   
 
 #### Returning User:
-* As a returning user, I would like to check if there has been any new questions added.
-* As a returning user, I would like to see if there has been any new categories added.
+* As a returning user, I would like to check if there have been any new questions added.
+* As a returning user, I would like to see if there have been any new categories added.
 * As a returning user, I would like to attempt to beat my previous score.
 * As a returning user, I would like to see a leader board of the top 10 scorers.
 
@@ -68,7 +69,7 @@ The goals for this site are as follows:
 To create a website that is comprehensive and informative for a user, as a developer you need to look at all aspects of the website and how someone who visits your website will use it. You have to consider all the user stories that have been outlined in the above sections.  
 
 ## Strategy
-The strategy principal looks at user needs, as well product/service objectives. This websites target audience was broken down into three categories:
+The strategy principal looks at user needs, as well product/service objectives. This website's target audience was broken down into two categories:
 ### Roles: 
 * New User
 * Existing User  
@@ -84,7 +85,7 @@ The strategy principal looks at user needs, as well product/service objectives. 
 #### The website needs to allow users to:  
 * Easily enter a username   
 * Get live feedback of if the answer is correct or incorrect 
-* See the correct answer if they answered incorrect  
+* See the correct answer if they answered incorrectly  
 * See a running total of their score
 * Provide a top 10 scorers board when the quiz has been completed  
 
@@ -107,7 +108,7 @@ With the structure in place, it was then time to move onto the scope plane. This
 
 
 ## Skeleton:
-[Wireframes](documents/WIREFRAME.md "Link to Wireframe screenshots") were created to set out the initial appearance of the website while also making sure to keep the end-user in mind at all times. Wireframes were created using [Balsamiq](https://balsamiq.com/).  
+The [Wireframes](documents/WIREFRAME.md "Link to Wireframe screenshots") were created to set out the initial appearance of the website while also making sure to keep the end-user in mind at all times. Wireframes were created using [Balsamiq](https://balsamiq.com/).  
 
 ## Surface:
 [Please see the live site here](https://martiless.github.io/quiz-time/)
@@ -120,7 +121,7 @@ Initially, I looked at what colors work best with the color I had chosen for the
 ![Color Wheel](documents/images/Color_wheel.jpg)
 
 
-Following on from the color wheel, I decided to use a purple color for the buttons with a cream color as the color when a user hoover over any of the buttons. For the correct and incorrect answer color change I went with your standard red and green. I ran all these color decisions through a color contrast checker to make sure that they would be easy to read for any user. 
+Following on from the color wheel, I decided to use a purple color for the buttons with a cream color as the color when a user hovers over any of the buttons. For the correct and incorrect answer color change, I went with your standard red and green. I ran all these color decisions through a color contrast checker to make sure that they would be easy to read for any user. 
 
 <details>
 <summary>Color Checker 1</summary>
@@ -150,7 +151,7 @@ The font pairing for this website was Marvel which I imported from [Google Fonts
 
 The imagery on this site was sourced from [Pexel](https://www.pexels.com/)
 
-I wanted the user to instantly know that they were on a site that had a movie/TV show theme to it. For this reason I decided to use a cinema screen as the backgound image for the quiz. 
+I wanted the user to instantly know that they were on a site that had a movie/TV show theme to it. For this reason, I decided to use a cinema screen as the background image for the quiz. 
 
 ***
 [Back to top](#Quiz-Time)  
@@ -160,7 +161,7 @@ I wanted the user to instantly know that they were on a site that had a movie/TV
 There are several features on this site to help users get the most out of their visit to the site.  
 
 ### Home Page:
-When a user comes to the site the first thing they will see is a large button with the text "Let's start the game" Once the users clicks on this button the questions will begin to load.
+When a user comes to the site the first thing they will see is a large button with the text "Let's start the game" Once the user clicks on this button the questions will begin to load.
 ![Home Page](documents/images/landing_page.PNG)
 
 ### Questions:
@@ -168,7 +169,7 @@ Once the game has started a total of 10 questions will be asked. The user will g
 ![Questions and Scoring area](documents/images/questions_score.PNG)
 
 ### Answered Question:
-When the user picks an answer they will receive instant feedback as to it their answer is correct or not. This will happen in the form of the answer buttons changing color and the score tracker incrementing if the answser selected is correct.
+When the user picks an answer they will receive instant feedback as to it their answer is correct or not. This will happen in the form of the answer buttons changing color and the score tracker incrementing if the answer selected is correct.
 ![Answered Questions](documents/images/question_answered.PNG)
 
 ### Restart Game:
@@ -176,7 +177,8 @@ After all 10 questions have been asked, the user has the option to enter a usern
 ![Restart Game](documents/images/restart_username.PNG)
 
 ## Future Features:
-* Leader Board: Initally I wanted a leaderboard to pop up at the end of the game when the user entered a username to show the top ten scorers of the game. This table would have been populated by data that had been stored in a JavaScript file. However, with time restictions, it was decided that this element of the game, for now, would not be included.
+### Leader Board: 
+Initially, I wanted a leaderboard to pop up at the end of the game when the user entered a username to show the top ten scorers of the game. This table would have been populated by data that had been stored in a JavaScript file. However, with time restrictions, it was decided that this element of the game, for now, would not be included.
 
 ***
 [Back to top](#Quiz-Time)  
@@ -188,8 +190,8 @@ We are looking to see if we have met all the goals we set out.
 #### New User:  
 As you can see all the user stories we get out above have been met 
 * As a new user, I am looking to find play an online game that tests my knowledge of popular Movies and TV Shows. <strong><em>Achieved</em></strong>
-* As a new user, I would like to keep trace of my score as I progress through the quiz. <strong><em>Achieved</em></strong>
-* As a new user, I would like to get live feedback of my answers. <strong><em>Achieved</em></strong>
+* As a new user, I would like to keep track of my score as I progress through the quiz. <strong><em>Achieved</em></strong>
+* As a new user, I would like to get live feedback on my answers. <strong><em>Achieved</em></strong>
 ***
 
 ## Testing:
@@ -199,30 +201,30 @@ Testing information can be viewed [here](documents/TESTING.md "Link to testing i
 
 ## Bugs:
 1. Hiding all elements of the quiz at the start of the game.
-      1. This was achieved by removing elements of the css code that was over writting the class of 'hidden' 
-1. Getting the answers selection to appear in the quiz once the start button was clicked by the used. 
-      1. After a lot of time going over the code, using Google Dev Tools and Jshint to see if there were any errors I got intouch with the Code Institute tutors who helped me see that I was using an element within the function that was not intended to be used in this function. Once I corrected this error the code worked exactly how it should have. 
-1. Linking the JSON file to the JavaScript file in order to input the questions and the lead-board names
-      1. My inital way of getting around this was to input all the relevant information at the bottom of the JavaScript file. However after speaking to my mentor it was decided that the best way was to create a new JS file and import the script above the script.js file in the HTML. 
-1. Getting the users score to only increase when the correct answer was selected.
-      1. This was something that I found very difficult as the score was increasing when the user clicked on any button. After a lot of time trying to figure this out I put my issue up on Slack and asked the community of students to help me. It turned out that I had accidentally used the userScore function somewhere else that was over writing the code I wanted it to use. Once I removed this line of code that was not needed the score tracker worked correctly. 
-1. The alter that comes up when a user submits a username was not appearing, but was when you reload the page.
+      1. This was achieved by removing elements of the CSS code that were overwriting the class of 'hidden' 
+1. Getting the selection of the answers to appear in the quiz once the start button was clicked by the user. 
+      1. After a lot of time going over the code, using Google Dev Tools and Jshint to see if there were any errors I got in touch with the Code Institute tutors who helped me see that I was using an element within the function that was not intended to be used in this function. Once I corrected this error the code worked exactly how it should have. 
+1. Linking the JSON file to the JavaScript file to input the questions and the lead-board names
+      1. My initial way of getting around this was to input all the relevant information at the bottom of the JavaScript file. However, after speaking to my mentor it was decided that the best way was to create a new JS file and import the script above the script.js file in the HTML. 
+1. Getting the user's score to only increase when the correct answer was selected.
+      1. This was something that I found very difficult as the score was increasing when the user clicked on any button. After a lot of time trying to figure this out, I put my issue up on Slack and asked the community of students to help me. It turned out that I had accidentally used the userScore function somewhere else that was overwriting the code I wanted it to use. Once I removed this line of code that was not needed the score tracker worked correctly. 
+1. The alter that comes up when a user submits a username was not appearing but was when you reload the page.
       1. When originally creating the event listener for the submit button I had incorrectly written the inner function without stating that it was a function, i.e I wrote the event followed by a string without telling the code what to do with the string. After spending time looking at the code and trying to figure out what was going wrong, I took some time away from the code and came back with fresh eyes at which point I had noticed my error.
 
 ## Unfixed Bugs:
 1. The next button will continue to increase the questions if you do not answer a question but keep clicking the next button
-      1. Due to time restrants I was unable to resolve this bug.
+      1. Due to time restraints I was unable to resolve this bug.
 
 
 ***
 [Back to top](#Quiz-Time) 
 
 ## Technologies Used:
-For the purpose of this project, the following technologies were used.  
+For this project, the following technologies were used.  
 
 ### Languages:
 * JavaScript
-* JSON - I was going to use JSON to create the questions for the quiz and the leadboard that I would like to appear at the end of the game. However, after my intial research into learing about JSON, I decied with the time frame available to me it would have taken up too much time to learn. Therefore the questions were done using a questions.js file and the leadboard was put into a future features sections. 
+* JSON - I was going to use JSON to create the questions for the quiz and the leaderboard that I would like to appear at the end of the game. However, after my initial research into learning about JSON, I decided with the time frame available to me it would have taken up too much time to learn. Therefore the questions were done using a questions.js file and the leaderboard was put into the [future features section](#Future-Features). 
 * HTML
 * CSS 
 
@@ -259,8 +261,8 @@ For the purpose of this project, the following technologies were used.
 
 To few all the validation results, please click [Here](documents/VALIDATION.md)
 
-* The final HTML was ran through W3C validator with no issues 
-* The final CSS was ran through (Jigsaw) validator and has no errors
+* The final HTML was run through W3C validator with no issues 
+* The final CSS was run through (Jigsaw) validator and has no errors
 * Both script.js and questions.js were run through JSHint, with a small number of warnings but no errors.
 
 
@@ -286,7 +288,7 @@ To deploy this page to GitHub Pages from its GitHub repository, the following st
 1. Locate the GitHub Repository you are using.
 1. At the top of the repository, select Settings from the menu items.
 1. Scroll down the Settings page to the "GitHub Pages" section.
-1. Click on the link provided. To open a new tab, right click on your mouse and select open in a new tab.
+1. Click on the link provided. To open a new tab, right-click on your mouse and select open in a new tab.
 1. Under "Source" click the drop-down menu labelled "None" and select "Main". Once this is done click on "save"
 1. Once you have clicked save, the page will automatically refresh. You will now get a link to the deployed website.
 1. Copy this link and off you go. 

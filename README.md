@@ -99,20 +99,11 @@ With the structure in place, it was then time to move onto the scope plane. This
 
 ### Content Requirements:
 1. The user will be looking for:
-      * 
+      * Receive instant feedback on if their answer selection is correct or not
+
 ### Functionality Requirements:
 1. The user will be able to:
-      * 
-
-
-## Structure:
-
-The information above was then used to create a structure for the website. Below is a site map showing how users can navigate the website intuitively 
-<details>
-<summary>Sitemap</summary>
-
-![Sitemap]
-</details>
+      * Add a username at the end of the game. 
 
 
 ## Skeleton:
@@ -261,27 +252,24 @@ See screenshot to W3C validator and Jigsaw CSS validator [here](documents/VALIDA
 ### **Index.html:**
 No errors found. 
 
-### **About.html:**
-No errors found
-
-### **Recipe.html:**
-No errors found
-
-### **Gallery.html:**
-No errors found
-
 ### **Style.css:**
 No errors found
+
+### **script.js:**
+
+### **questions.js:**
 
 ***
 [Back to top](#Quiz-Time)
 
 ## Accessibility:
+To check the accessibily of this site I ran a Lighthouse report using Google Dev Tools 
 <details>
 <summary>LightHouse Report</summary>
 
 ![LightHouse Report](documents/images/lighthouse_report.PNG)
 </details>
+
 ***
 ## Deployment:
 This project was developed using [GitPod](https://gitpod.io/), committed and pushed to [GitHub](https://github.com/) using a GitPod terminal.

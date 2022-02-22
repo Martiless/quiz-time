@@ -80,7 +80,6 @@ function nextQuestion() {
  */
 function loadQuestions(questions) {
     scorePanelElement.classList.remove('hidden');
-    nextButtonElement.classList.remove('hidden');
     questionCounter++;
     questionCounterElement.innerText = questionCounter + '/' + maxQuestions;
     questionsElement.innerText = questions.question;
@@ -98,9 +97,11 @@ function loadQuestions(questions) {
 }
 
 /** 
+ * Hides the next button
  * Clears the screen of the previous answer button text 
  */
 function resetScreen() {
+    nextButtonElement.classList.add('hidden');
     while (answerButtonsElement.firstChild) {
         answerButtonsElement.removeChild(answerButtonsElement.firstChild);
     }
@@ -122,10 +123,12 @@ function checkAnswers(e) {
         answerChoice(button, button.dataset.correct);
     });
     /** 
-     * Should a new question be loaded or finish game  
+     * Checks the number of questions asked and either 
+     * Shows the next button
+     * or ends the game  
      */
     if (shuffledQuestions.length > currentQuestionIndex + 1) {
-        callQuestions;
+        nextButtonElement.classList.remove('hidden');
     } else {
         nextButtonElement.classList.add('hidden');
         questionPanelElement.classList.add('hidden');

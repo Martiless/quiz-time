@@ -3,21 +3,21 @@
 # HTML
 
 ## W3C Validator:
-![HTML](images/HTML_Checker_screenshot.PNG)
+![HTML](images/validation/HTML_Checker_screenshot.PNG)
 ***
 
 # CSS
 
 ## Jigsaw CSS Validator:
-![CSS](images/CSS_checker_screenshot.PNG)
+![CSS](images/validation/CSS_checker_screenshot.PNG)
 ***
 
 # JavaScript
 
 ## Jshint:
 ### Script:
-![SCRIPT](images/JShint_script_screenshot.PNG)
+![SCRIPT](images/validation/JShint_script_screenshot.PNG)
 
 ### Questions:
-![QUESTIONS](images/JShint_questions_screenshot.PNG)
+![QUESTIONS](images/validation/JShint_questions_screenshot.PNG)
 

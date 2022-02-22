@@ -1,6 +1,6 @@
 # Quiz Time 
 
-This website has been created as the second Milestone project for Code Institute's Full Stack Software Development Diploma. It was built using HTML and CSS. GitPod was used for writing the code for this website, as well as committing and pushing to GitHub. GitHub was then used to store the project after it had been pushed from GitPod. Once all the code had been written, GitPages was then used to deploy the website. 
+This website has been created as the second Milestone project for Code Institute's Full Stack Software Development Diploma. It was built using HTML, CSS and JavaScript. GitPod was used for writing the code for this website, as well as committing and pushing to GitHub. GitHub was then used to store the project after it had been pushed from GitPod. Once all the code had been written, GitPages was then used to deploy the website. 
 
 This website is a fun and easy to play Movies & TV Shows quiz game.
 It was designed to allow users to take 5 minutes out of their day to unwind and have a bit of fun. 
@@ -218,7 +218,7 @@ For the purpose of this project, the following technologies were used.
 
 ### Languages:
 * JavaScript
-* JSON
+* JSON - I was going to use JSON to create the questions for the quiz and the leadboard that I would like to appear at the end of the game. However, after my intial research into learing about JSON, I decied with the time frame available to me it would have taken up too much time to learn. Therefore the questions were done using a questions.js file and the leadboard was put into a future features sections. 
 * HTML
 * CSS 
 
@@ -242,9 +242,6 @@ For the purpose of this project, the following technologies were used.
 #### Balsamiq 
 * Balsamiq was used to draw initial Wireframes for this project.
 
-#### Figma
-* Figma was used during the structure phase of this project. It was used to create a sitemap of the website. 
-
 #### Am I Responsive
 * Am I Responsive was used to check that each page of the site was responsive. It was also used to create the mock-up image seen at the beginning of this document. 
 
@@ -265,8 +262,10 @@ No errors found.
 No errors found
 
 ### **script.js:**
+No errors found 
 
 ### **questions.js:**
+No errors found 
 
 ***
 [Back to top](#Quiz-Time)

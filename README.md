@@ -131,10 +131,22 @@ Initially, I looked at what colors work best with the color I had chosen for the
 
 Following on from the color wheel, I decided to use a purple color for the buttons with a cream color as the color when a user hoover over any of the buttons. For the correct and incorrect answer color change I went with your standard red and green. I ran all these color decisions through a color contrast checker to make sure that they would be easy to read for any user. 
 
+<details>
+<summary>Color Checker 1</summary>
 
 ![Color Checker 1](documents/images/answer_button_contrast.PNG)
+</details>
+
+<details>
+<summary>Color Checker 2</summary>
+
 ![Color Checker 2](documents/images/correct_answer_contrast.PNG)
+</details>
+<details>
+<summary>Color Checker 3</summary>
+
 ![Color Checker 3](documents/images/incorrect_answer_contrast.PNG)
+</details>
 
 
 
@@ -265,7 +277,11 @@ No errors found
 [Back to top](#Quiz-Time)
 
 ## Accessibility:
-![LightHouse Report]()
+<details>
+<summary>LightHouse Report</summary>
+
+![LightHouse Report](documents/images/lighthouse_report.PNG)
+</details>
 ***
 ## Deployment:
 This project was developed using [GitPod](https://gitpod.io/), committed and pushed to [GitHub](https://github.com/) using a GitPod terminal.

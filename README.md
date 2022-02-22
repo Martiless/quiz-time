@@ -200,6 +200,15 @@ Testing information can be viewed [here](documents/TESTING.md "Link to testing i
       1. After a lot of time going over the code, using Google Dev Tools and Jshint to see if there were any errors I got intouch with the Code Institute tutors who helped me see that I was using an element within the function that was not intended to be used in this function. Once I corrected this error the code worked exactly how it should have. 
 1. Linking the JSON file to the JavaScript file in order to input the questions and the lead-board names
       1. My inital way of getting around this was to input all the relevant information at the bottom of the JavaScript file. However after speaking to my mentor it was decided that the best way was to create a new JS file and import the script above the script.js file in the HTML. 
+1. Getting the users score to only increase when the correct answer was selected.
+      1. This was something that I found very difficult as the score was increasing when the user clicked on any button. After a lot of time trying to figure this out I put my issue up on Slack and asked the community of students to help me. It turned out that I had accidentally used the userScore function somewhere else that was over writing the code I wanted it to use. Once I removed this line of code that was not needed the score tracker worked correctly. 
+1. The alter that comes up when a user submits a username was not appearing, but was when you reload the page.
+      1. When originally creating the event listener for the submit button I had incorrectly written the inner function without stating that it was a function, i.e I wrote the event followed by a string without telling the code what to do with the string. After spending time looking at the code and trying to figure out what was going wrong, I took some time away from the code and came back with fresh eyes at which point I had noticed my error.
+
+### Unfixed Bugs:
+1. The next button will continue to increase the questions if you do not answer a question but keep clicking the next button
+      1. Due to time restrants I was unable to resolve this bug.
+
 
 ***
 [Back to top](#Quiz-Time) 
@@ -216,10 +225,10 @@ For the purpose of this project, the following technologies were used.
 ### Frameworks, Libraries, Programs & Applications Used:
 
 #### Google Font
-* 
+* Google fonts were used to import the Marvel font to the site. This was imported to style.css and was used throughout the project.
 
 #### Font Awesome
-*   
+*   Font Awesome was used to provide icons at various stages of the site for UX purposes.
 
 #### GitPod
 * GitPod was used for writing all the code for this project. It was also used to commit and push to GitHub.  

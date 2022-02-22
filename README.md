@@ -126,15 +126,15 @@ The information above was then used to create a structure for the website. Below
 To create a visually appealing website but also a website that was easy for people to read I used several different sites to test color contrast. I wanted to make sure the color scheme was not only eye-catching but also that it passed the LightHouse Accessibility test. 
 
 Initially, I looked at what colors work best with the color I had chosen for the buttons. I did this by using a color wheel.  
-![Color Wheel](documents/Color_wheel.jpg)
+![Color Wheel](documents/images/Color_wheel.jpg)
 
 
 Following on from the color wheel, I decided to use a purple color for the buttons with a cream color as the color when a user hoover over any of the buttons. For the correct and incorrect answer color change I went with your standard red and green. I ran all these color decisions through a color contrast checker to make sure that they would be easy to read for any user. 
 
 
-![Color Checker 1](documents/answer_button_contrast.PNG)
-![Color Checker 2](documents/correct_answer_contrast.PNG)
-![Color Checker 3](documents/incorrect_answer_contrast.PNG)
+![Color Checker 1](documents/images/answer_button_contrast.PNG)
+![Color Checker 2](documents/images/correct_answer_contrast.PNG)
+![Color Checker 3](documents/images/incorrect_answer_contrast.PNG)
 
 
 
@@ -156,13 +156,21 @@ I wanted the user to instantly know that they were on a site that had a movie/TV
 ## Features:
 There are several features on this site to help users get the most out of their visit to the site.  
 
-### General:
-
 ### Home Page:
+When a user comes to the site the first thing they will see is a large button with the text "Let's start the game" Once the users clicks on this button the questions will begin to load.
+[Home Page](documents/images/landing_page.PNG)
 
 ### Questions:
+Once the game has started a total of 10 questions will be asked. The user will get a choice of 4 answers and can keep track of both the number of questions and their score at the bottom of the screen.
+[Questions and Scoring area](documents/images/questions_score.PNG)
 
-### Score:
+### Answered Question:
+When the user picks an answer they will receive instant feedback as to it their answer is correct or not. This will happen in the form of the answer buttons changing color and the score tracker incrementing if the answser selected is correct.
+[Answered Questions](documents/images/question_answered.PNG)
+
+### Restart Game:
+After all 10 questions have been asked, the user has the option to enter a username and restart or just simply restart the game without providing a username.
+[Restart Game](documents/images/restart_username.PNG)
 
 ## Future Features:
 * Leader Board: Initally I wanted a leaderboard to pop up at the end of the game when the user entered a username to show the top ten scorers of the game. This table would have been populated by data that had been stored in a JavaScript file. However, with time restictions, it was decided that this element of the game, for now, would not be included.

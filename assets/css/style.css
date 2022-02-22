@@ -25,8 +25,12 @@ body {
 .logo {
     font-size: 80px;
     color: #381741;
-    text-shadow: 2px 2px 5px #E3170A;
-    padding-top: 20px;
+    text-shadow: 2px 2px 5px #e3170a;
+    margin-top: 2px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: whitesmoke;
+    opacity: 0.95;
 }
 
 /* Start button area*/
@@ -279,8 +283,7 @@ body {
 @media screen and (max-width: 1300px) {
     .logo {
         font-size: 80px;
-        padding-top: 130px;
-        margin: revert;
+        padding-top: 20px;
     }
 
     .main-area {
@@ -320,8 +323,8 @@ body {
 @media screen and (max-width: 950px) {
     .logo {
         font-size: 80px;
-        padding-top: 80px;
-        margin: 20px;
+        padding-top: 1px;
+        margin-bottom: 31px;
     }
 
     .answer-btn {
@@ -353,8 +356,7 @@ body {
 @media screen and (max-width:650px) {
     .logo {
         font-size: 40px;
-        padding-top: 35px;
-        margin: revert;
+        padding-top: unset;
     }
 
     #start-btn {
@@ -427,8 +429,7 @@ body {
 @media screen and (max-width:400px) {
     .logo {
         font-size: 37px;
-        padding-top: 40px;
-        margin: revert;
+        padding-top: unset;
     }
 
     #start-btn {

@@ -8,7 +8,7 @@ It was designed to allow users to take 5 minutes out of their day to unwind and 
 ### View the live website [here](https://martiless.github.io/quiz-time/)
 ***
 
-![Am I Responsive](assets/readme-images/am-i-responsive.png)
+![Am I Responsive]()
 ***
 
 ## Table of content: 
@@ -60,6 +60,7 @@ The goals for this site are as follows:
 
 #### Returning User:
 * As a returning user, I would like to check if there has been any new questions added.
+* As a returning user, I would like to see if there has been any new categories added.
 * As a returning user, I would like to attempt to beat my previous score.
 * As a returning user, I would like to see a leader board of the top 10 scorers.
 
@@ -73,13 +74,12 @@ The strategy principal looks at user needs, as well product/service objectives. 
 * Existing User  
 
 ### Demographic:
-*   
+*   People aged between 16 & 55 years
 
 ### Psychographic:
 #### Lifestyle:
-*   
-#### Values:
-*  
+*   People who have a keen interest in movies and TV shows
+ 
 
 #### The website needs to allow users to:  
 * Easily enter a username   
@@ -116,10 +116,10 @@ The information above was then used to create a structure for the website. Below
 
 
 ## Skeleton:
-[Wireframes](WIREFRAME.md "Link to Wireframe screenshots") were created to set out the initial appearance of the website while also making sure to keep the end-user in mind at all times. Wireframes were created using [Balsamiq](https://balsamiq.com/).  
+[Wireframes](documents/WIREFRAME.md "Link to Wireframe screenshots") were created to set out the initial appearance of the website while also making sure to keep the end-user in mind at all times. Wireframes were created using [Balsamiq](https://balsamiq.com/).  
 
 ## Surface:
-[Please see the live site here]  
+[Please see the live site here](https://martiless.github.io/quiz-time/)
 
 
 ### Color: 
@@ -178,7 +178,7 @@ We are looking to see if we have met all the goals we set out.
 ***
 
 ## Testing:
-Testing information can be viewed [here](TESTING.md "Link to testing information")
+Testing information can be viewed [here](documents/TESTING.md "Link to testing information")
 
 ***
 
@@ -236,7 +236,7 @@ For the purpose of this project, the following technologies were used.
 
 ## Validation:
 
-See screenshot to W3C validator and Jigsaw CSS validator [here](VALIDATION.md "Link to validation screenshots")
+See screenshot to W3C validator and Jigsaw CSS validator [here](documents/VALIDATION.md "Link to validation screenshots")
 
 ### **Index.html:**
 No errors found. 

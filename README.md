@@ -8,7 +8,12 @@ It was designed to allow users to take 5 minutes out of their day to unwind and 
 ### View the live website [here](https://martiless.github.io/quiz-time/)
 ***
 
-![Am I Responsive]()
+![Am I Responsive](documents/images/Am_I_Responsive_1.PNG)
+<details>
+<summary>Am I Responive</summary>
+
+![Am I Responsive 2](documents/images/Am_I_Responsive_2.PNG)
+</details>
 ***
 
 ## Table of content: 

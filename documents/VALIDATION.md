@@ -15,7 +15,9 @@
 # JavaScript
 
 ## Jshint:
+### Script:
 ![SCRIPT](images/JShint_script_screenshot.PNG)
 
+### Questions:
 ![QUESTIONS](images/JShint_questions_screenshot.PNG)
 

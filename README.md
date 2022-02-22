@@ -18,7 +18,6 @@ It was designed to allow users to take 5 minutes out of their day to unwind and 
       1. [Development Planes](#Development-Planes)
             * [Strategy](#Strategy)
             * [Scope](#Scope)
-            * [Structure](#Structure)
             * [Skeleton](#Skeleton)
             * [Surface](#Surface)
       1. [Color](#Color)
@@ -185,8 +184,12 @@ After all 10 questions have been asked, the user has the option to enter a usern
 ## User Stories Met:
 This section is to look back at the User stories we established during the strategy phase of the project. 
 We are looking to see if we have met all the goals we set out. 
+
 #### New User:  
-* 
+As you can see all the user stories we get out above have been met 
+* As a new user, I am looking to find play an online game that tests my knowledge of popular Movies and TV Shows. <strong><em>Achieved</em></strong>
+* As a new user, I would like to keep trace of my score as I progress through the quiz. <strong><em>Achieved</em></strong>
+* As a new user, I would like to get live feedback of my answers. <strong><em>Achieved</em></strong>
 ***
 
 ## Testing:

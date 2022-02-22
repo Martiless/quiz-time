@@ -195,7 +195,13 @@ As you can see all the user stories we get out above have been met
 ***
 
 ## Testing:
-Testing information can be viewed [here](documents/TESTING.md "Link to testing information")
+Testing information can be views [here](documents/TESTING.md)
+This website was tested out on the following browsers
+* Google Chrome
+* Microsoft Edge
+* Firefox
+
+It was also tested on Android and iOS devices.
 
 ***
 

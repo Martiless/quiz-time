@@ -11,23 +11,27 @@
 </head>
 
 <body>
+    <!-- Page logo -->
     <section id="heading">
         <h1 id="logo" class="logo">
             It's Quiz Time
         </h1>
     </section>
 
+    <!-- Main question area -->
     <section class="main-area">
         <div id="question-panel" class="hidden">
             <div id="questions">Question Area</div>
             <div id="answer-buttons"></div>
         </div>
+        <!-- HTML for the start, restart and next buttons -->
         <div id="buttons">
             <button id="start-btn" class="start-btn btn" data-type="start-button">Let's start the game <i
                     class="fas fa-photo-video"></i></button>
             <button id="next-btn" class="next-btn hidden">Next</button>
             <button id="restart-btn" class="hidden">Restart Game <i class="fas fa-sync-alt"></i></button>
         </div>
+        <!-- Question counter and scoring area-->
         <div id="score-panel" class="hidden">
             <div class="score-area">
                 <div>
@@ -43,7 +47,7 @@
     </section>
 
     <br>
-
+    <!-- End of game panel that will appear when the user finsih the game -->
     <section id="username-area" class="hidden">
         <div>
             <p class="congrats-message">CONGRATULATIONS! </p>
@@ -52,6 +56,7 @@
         </div>
         <div id="enter-name" class="hidden">
         </div>
+        <!-- Form for a user to enter a Username  -->
         <div class="username">
             <form id="add-username" method="POST" action=""></form>
             <form method="GET" target="_blank" rel="noopner">

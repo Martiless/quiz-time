@@ -223,10 +223,12 @@ It was also tested on Android and iOS devices.
       1. When originally creating the event listener for the submit button I had incorrectly written the inner function without stating that it was a function, i.e I wrote the event followed by a string without telling the code what to do with the string. After spending time looking at the code and trying to figure out what was going wrong, I took some time away from the code and came back with fresh eyes at which point I had noticed my error.
 1. Next button could be clicked indefinitely if a user had not selected an answer. 
       1. This was a major issue for me as I tried to solve this bug. I could not figure out what was going wrong. I tried on a number of occasions to add diffenent elements to the event listener, as well as create a new function to try and solve the his. 
-      1. I had gone onto a number of forums where I say people talking about jQueries, as I did not have a full understanding as how jQueries are used and I did not feel like I had the time to learn it to the level I would have liked for this project, I decided against going down this avenue. 
-      1. I then decided to search on slack to see if anyone else had a similar issue and the advice I found was to simply hide the next button between questions, only allowing it to appear once an answer was selected. 
+      1. I had gone onto a number of forums where I say people talking about jQueries, as I did not have a full understanding as how jQuerie are used and I did not feel like I had the time to learn it to the level I would have liked for this project, I decided against going down this avenue. 
+      1. I then decided to search on Slack to see if anyone else had a similar issue and the advice I found was to simply hide the next button between questions, only allowing it to appear once an answer was selected. 
       1. I feel like this has just masked the issue as a pose to fixing it, however, I plan on doing more research on how to solve this issue using jQuery after this project.
-
+1. User can continue to click on the correct answer after the have selected an answer, therefor, increasing their overall score.
+      1. Similar to the next button issue after searching around I have found that people have been disabling buttons using jQuery.
+      1. I have asked for help from the Slack community to see if anyone could advice me on how to fix this issue. 
 
 ***
 [Back to top](#Quiz-Time) 
@@ -311,7 +313,7 @@ To deploy this page to GitHub Pages from its GitHub repository, the following st
 ### Acknowledgements:
 
 1. I would like to start by thanking Brian O’Hare for being my mentor for this project. 
-1. Everyone on Slack who helped me out. Especially liz conway_5P for all her help and support for this and the previous project.
+1. liz conway_5P for all her help and support for this and the previous project.
 
 
 ### Sources:

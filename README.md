@@ -226,10 +226,11 @@ It was also tested on Android and iOS devices.
       1. I had gone onto a number of forums where I say people talking about jQueries, as I did not have a full understanding as how jQuerie are used and I did not feel like I had the time to learn it to the level I would have liked for this project, I decided against going down this avenue. 
       1. I then decided to search on Slack to see if anyone else had a similar issue and the advice I found was to simply hide the next button between questions, only allowing it to appear once an answer was selected. 
       1. I feel like this has just masked the issue as a pose to fixing it, however, I plan on doing more research on how to solve this issue using jQuery after this project.
-1. User can continue to click on the correct answer after the have selected an answer, therefor, increasing their overall score.
-      1. Similar to the next button issue after searching around I have found that people have been disabling buttons using jQuery.
-      1. I have asked for help from the Slack community to see if anyone could advice me on how to fix this issue. 
 
+## Unfixed Bugs: 
+1. In my final round of testing I found a bug in the answer question buttons. A user can continue to click on the correct answer after the have selected an answer, therefor, increasing their overall score.
+      1. Similar to the next button issue after searching around I have found that people have been disabling buttons using jQuery.
+      1. As this issue was discovered so close to the submission time and didn't have an impact on the funcitionality of the quiz, I decided to leave it for now and come back to it later. 
 ***
 [Back to top](#Quiz-Time) 
 

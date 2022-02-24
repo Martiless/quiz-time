@@ -4,11 +4,11 @@
 <details>
 <summary>Google Chrome Testing</summary>
 
-![Chrome Test 1](images/testing/google/_chrome.png)
-![Chrome Test 2](images/testing/google/_chrome_1.png)
-![Chrome Test 3](images/testing/google/_chrome_2.png)
-![Chrome Test 4](images/testing/google/_chrome_3.png)
-![Chrome Test 5](images/testing/google/_chrome_4.png)
+![Chrome Test 1](images/testing/google_chrome.png)
+![Chrome Test 2](images/testing/google_chrome_1.png)
+![Chrome Test 3](images/testing/google_chrome_2.png)
+![Chrome Test 4](images/testing/google_chrome_3.png)
+![Chrome Test 5](images/testing/google_chrome_4.png)
 </details>
 
 ***

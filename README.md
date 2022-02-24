@@ -8,11 +8,11 @@ It was designed to allow users to take 5 minutes out of their day to unwind and 
 ### View the live website [here](https://martiless.github.io/quiz-time/)
 ***
 
-![Am I Responsive](documents/images/Am_I_Responsive_1.PNG)
+![Am I Responsive](documents/images/am_i_responsive_1.png)
 <details>
 <summary>Am I Responive</summary>
 
-![Am I Responsive 2](documents/images/Am_I_Responsive_2.PNG)
+![Am I Responsive 2](documents/images/am_i_responsive_2.png)
 </details>
 
 
@@ -123,7 +123,7 @@ The [Wireframes](documents/WIREFRAME.md "Link to Wireframe screenshots") were cr
 To create a visually appealing website but also a website that was easy for people to read I used several different sites to test color contrast. I wanted to make sure the color scheme was not only eye-catching but also that it passed the LightHouse Accessibility test. 
 
 Initially, I looked at what colors work best with the color I had chosen for the buttons. I did this by using a color wheel.  
-![Color Wheel](documents/images/Color_wheel.jpg)
+![Color Wheel](documents/images/color_wheel.jpg)
 
 
 Following on from the color wheel, I decided to use a purple color for the buttons with a cream color as the color when a user hovers over any of the buttons. For the correct and incorrect answer color change, I went with your standard red and green. I ran all these color decisions through a color contrast checker to make sure that they would be easy to read for any user. 
@@ -131,18 +131,18 @@ Following on from the color wheel, I decided to use a purple color for the butto
 <details>
 <summary>Color Checker 1</summary>
 
-![Color Checker 1](documents/images/answer_button_contrast.PNG)
+![Color Checker 1](documents/images/answer_button_contrast.png)
 </details>
 
 <details>
 <summary>Color Checker 2</summary>
 
-![Color Checker 2](documents/images/correct_answer_contrast.PNG)
+![Color Checker 2](documents/images/correct_answer_contrast.png)
 </details>
 <details>
 <summary>Color Checker 3</summary>
 
-![Color Checker 3](documents/images/incorrect_answer_contrast.PNG)
+![Color Checker 3](documents/images/incorrect_answer_contrast.png)
 </details>
 
 
@@ -167,19 +167,19 @@ There are several features on this site to help users get the most out of their 
 
 ### Home Page:
 When a user comes to the site the first thing they will see is a large button with the text "Let's start the game" Once the user clicks on this button the questions will begin to load.
-![Home Page](documents/images/landing_page.PNG)
+![Home Page](documents/images/landing_page.png)
 
 ### Questions:
 Once the game has started a total of 10 questions will be asked. The user will get a choice of 4 answers and can keep track of both the number of questions and their score at the bottom of the screen.
-![Questions and Scoring area](documents/images/questions_score.PNG)
+![Questions and Scoring area](documents/images/questions_score.png)
 
 ### Answered Question:
 When the user picks an answer they will receive instant feedback as to it their answer is correct or not. This will happen in the form of the answer buttons changing color and the score tracker incrementing if the answer selected is correct.
-![Answered Questions](documents/images/question_answered.PNG)
+![Answered Questions](documents/images/question_answered.png)
 
 ### Restart Game:
 After all 10 questions have been asked, the user has the option to enter a username and restart or just simply restart the game without providing a username.
-![Restart Game](documents/images/restart_username.PNG)
+![Restart Game](documents/images/restart_username.png)
 
 ## Future Features:
 ### Leader Board: 
@@ -289,7 +289,7 @@ To check the accessibily of this site I ran a Lighthouse report using Google Dev
 <details>
 <summary>LightHouse Report</summary>
 
-![LightHouse Report](documents/images/lighthouse_report.PNG)
+![LightHouse Report](documents/images/lighthouse_report.png)
 </details>
 
 ***
@@ -330,7 +330,6 @@ To deploy this page to GitHub Pages from its GitHub repository, the following st
 1. The initial code from this project was based on the Code Institutes Love Maths project.
 1. Code on building a multiple choice quiz app was inspired by the following
       1. “Build a quiz app” by James Q Quick, videos available [here](https://www.youtube.com/watch?v=u98ROZjBWy8&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx)
-      1. “Create a Multiple Choice Quiz App Using JavaScript” by Code Explained, video available [here](https://www.youtube.com/watch?v=49pYIMygIcU)
       1. “Build a quiz with JavaScript” by Web Dev Simplified, video available [here](https://www.youtube.com/watch?v=riDzcEQbX6k)
 1. I used various coder forums at times when I had difficulty with aspects of the code. The use of sites such as [W3 Schools](https://www.w3schools.com/) and [Stack Overflow](https://stackoverflow.com/) was hugely helpful
 

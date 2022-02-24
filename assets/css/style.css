@@ -34,7 +34,6 @@ body {
 }
 
 /* Start button area*/
-
 #start-btn {
     font-size: 50px;
     border-radius: 13px;
@@ -76,7 +75,6 @@ body {
 
 
 /* Questions Area*/
-
 .main-area {
     text-align: center;
     max-width: 55%;
@@ -97,7 +95,6 @@ body {
 }
 
 /* Answer Buttons*/
-
 .answer-btn {
     font-size: 23px;
     border-radius: 13px;
@@ -121,6 +118,7 @@ body {
     color: #FFFFFF;
 }
 
+/* Next button*/
 #next-btn {
     font-size: 22px;
     font-weight: 700;
@@ -141,7 +139,6 @@ body {
 }
 
 /* Score Area*/
-
 .score-area {
     display: flex;
     justify-content: space-between;
@@ -204,6 +201,7 @@ body {
     color: #A9e5BB;
 }
 
+/*Used to hide various bits of code until needed*/
 .hidden {
     display: none;
 }
@@ -282,7 +280,6 @@ body {
 }
 
 /* media queries for mobile*/
-
 @media screen and (max-width:650px) {
     .logo {
         font-size: 40px;
@@ -355,7 +352,6 @@ body {
 }
 
 /* Media queries for small devices*/
-
 @media screen and (max-width:400px) {
     .logo {
         font-size: 37px;
@@ -422,6 +418,5 @@ body {
     #user {
         font-size: inherit;
     }
-
 
 }

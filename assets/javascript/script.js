@@ -1,6 +1,12 @@
 /* jshint esversion: 6 */
 
-// Constants
+/** Code on building a multiple choice quiz was inspired by the following
+ * “Build a quiz app” by James Q Quick
+ * “Build a quiz with JavaScript” by Web Dev Simplified
+ * Find all links in README document. 
+*/
+
+ // Constants
 const startButton = document.getElementById('start-btn');
 const restartButton = document.getElementById('restart-btn');
 const questionPanelElement = document.getElementById('question-panel');
@@ -45,7 +51,6 @@ submitButtonElement.addEventListener("click", () => {
  * This function will run once the user clicks on the start button
  */
 function startGame() {
-    console.log('StartGame');
     startButton.classList.add('hidden');
     /** 
      * Randomise the questions from the list of questions in questions.js 
@@ -96,7 +101,7 @@ function loadQuestions(questions) {
     });
 }
 
-/** 
+/**
  * Hides the next button
  * Clears the screen of the previous answer button text 
  */
@@ -110,9 +115,8 @@ function resetScreen() {
 
 /** 
  * Checks the answer that has been selected, calls the userScore function & the answerChoice function
- * @param pulling in the event from the loadQuestion function
+ * @param event fired by user answer selection
  */
-
 function checkAnswers(e) {
     selectedAnswer = e.target;
     const correct = selectedAnswer.dataset.correct;
